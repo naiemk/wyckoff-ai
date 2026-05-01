@@ -1,0 +1,14 @@
+way in favor of the movement.
+Limit orders . Allows us to passively enter the market
+against the movement.
+At this point I would like to emphasize again the importance of
+quantifying our entry trigger. As we see, there are many ways to enter the
+market, and each of them will have a different performance on the st rategy.
+My recommendation is that you acquire the knowledge to perform a robust
+backtesting process in order to obtain the statistics that will provi de us with
+objective results. This way we can compare the performance of the di fferent
+ways we analyze to enter.
+STOP  L OSS
+The idea is to place the Stop Loss at the point where, if reached, t he proposed
+scenario would be invalidated.
+When placing the stop loss, we have to take into account what type of

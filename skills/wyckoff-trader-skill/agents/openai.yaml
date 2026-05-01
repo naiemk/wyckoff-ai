@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wyckoff Trader Skill"
+  short_description: "Build Wyckoff-based crypto scenarios"
+  default_prompt: "Use $wyckoff-trader-skill to build a disciplined Wyckoff scenario for this market."
+
+policy:
+  allow_implicit_invocation: true

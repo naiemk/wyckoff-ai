@@ -1,0 +1,8 @@
+In the Spring test, the stop would be either below the
+SOSbar or below the low of the Spring.
+In the Upthrust test, the stop could be either above the
+SOWbar or above the high of the Upthrust.
+For inputs with a smaller structure it is best to place the st op loss at
+the end of the whole scenario:
+In minor reaccumulation structures, below the low of the
+structure.
