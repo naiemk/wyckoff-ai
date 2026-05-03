@@ -23,6 +23,8 @@ Then update `references/source_index.md`.
 
 If the source text is not already bundled locally, also add a simplified local copy under `references/assets/`.
 
+If the source is a large recurring archive, also create a corpus-level `index.md` and `manifest.json` inside its asset folder.
+
 ### 2. Extract Only High-Signal Ideas
 
 Do not copy the whole source into the skill.
@@ -53,6 +55,7 @@ Use this routing:
 - scenario-output or workflow changes -> `references/scenario_playbook.md`
 - trigger conditions or workflow navigation -> `SKILL.md`
 - local source text or offline corpus material -> `references/assets/`
+- source-family distilled takeaways -> a dedicated reference file such as `references/<source_family>.md`
 
 ## Editing Rules
 

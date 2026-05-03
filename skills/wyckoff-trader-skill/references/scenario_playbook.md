@@ -52,6 +52,13 @@ Check:
 - thematic-sector strength
 - relative strength versus benchmark
 
+If the task includes choosing among multiple candidates, use a top-down drilldown:
+
+- broad market
+- sector or theme
+- industry group or crypto bucket
+- best individual candidate
+
 ### 5. Leading Scenario
 
 Include:
@@ -127,6 +134,8 @@ Prefer scenarios with:
 - supportive relative strength
 - supportive intermarket backdrop
 - defined invalidation
+- constructive trend stride when already in markup or markdown
+- leadership that is `in gear` versus relevant peers or benchmarks
 
 Downgrade scenarios with:
 

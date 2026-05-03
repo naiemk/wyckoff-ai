@@ -152,3 +152,32 @@ One of the best archive reminders:
 - only after that apply Wyckoff labels
 
 When labels lead the analysis, the scenario usually degrades into curve-fitting.
+
+## 21. Context Is King
+
+Bruce Fraser's archive repeatedly sharpens this idea:
+
+- schematics are road maps, not clocks
+- the same event label can imply different tactics depending on where the structure sits in its campaign
+
+## 22. Stride Of Trend
+
+A trend often sets its pace early. Monitoring whether price respects, throws over, or falls back inside that stride can be more revealing than raw bullish or bearish narration.
+
+## 23. Creek / Ice As Variable Zones
+
+Resistance and support often behave like meandering zones rather than exact prices. A `jump across the creek` or a `break of the ice` is an event with price/volume confirmation, not just a line cross.
+
+## 24. In-Gear Relative Strength
+
+Strong candidates often show three things together:
+
+- absolute trend strength
+- relative strength versus peer group
+- relative strength versus benchmark
+
+Fraser treats this `in gear` condition as a powerful ranking filter.
+
+## 25. Conservative Distribution Counting
+
+One practical Fraser-style PnF heuristic is to undercount distribution rather than overcount it, and in some structures count from `LPSY` back to `ST` instead of all the way to the climax when that produces a more realistic objective.

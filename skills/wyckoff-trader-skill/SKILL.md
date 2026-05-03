@@ -38,6 +38,7 @@ Use this skill when the task involves any of the following:
 - Use the local bundled assets before browsing or re-fetching any source.
 - For classical Wyckoff source text, use `references/assets/book/`.
 - For the crypto archive source text, use `references/assets/crypto_archive/`.
+- For long-form applied case studies, Point & Figure practice, trend stride work, and stock-selection workflow, use `references/assets/bruce_fraser_stockcharts/`.
 
 ### 1. Build Context First
 
@@ -98,6 +99,7 @@ Unless the user asks for another format, structure the final scenario with:
 
 - [source_index.md](references/source_index.md): what sources informed the skill and why they matter.
 - [assets/index.md](references/assets/index.md): bundled offline corpus of the book and crypto archive.
+- [bruce_fraser_stockcharts.md](references/bruce_fraser_stockcharts.md): applied Wyckoff lessons distilled from Bruce Fraser's 243-article StockCharts archive.
 - [book_foundations.md](references/book_foundations.md): formal Wyckoff framework from the book.
 - [crypto_adaptations.md](references/crypto_adaptations.md): crypto-specific behaviors extracted from the archive.
 - [uncommon_concepts.md](references/uncommon_concepts.md): high-signal, non-obvious ideas and terminology.

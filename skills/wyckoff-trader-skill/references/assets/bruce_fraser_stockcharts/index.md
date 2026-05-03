@@ -1,0 +1,255 @@
+# Bruce Fraser StockCharts Corpus
+
+Simplified local offline copy of all accessible Bruce Fraser articles found through the StockCharts author archive pages.
+
+- Archive pages captured: 7
+- Unique articles captured: 243
+- Manifest: `manifest.json`
+- Simplified article text: `posts/*.md`
+- Raw article HTML: `html/*.html`
+
+## Article List
+
+- `March 01, 2026 at 09:41 PM` | `Has the Bull Run Its Course?` | `posts/has-the-bull-run-its-course.md`
+- `July 28, 2025 at 02:01 PM` | `Is the Charging Bull Getting Tired?` | `posts/articles-wyckoff-2025-07-is-the-charging-bull-getting-tired.md`
+- `December 29, 2024 at 01:31 PM` | `Swing Trading with Point & Figure` | `posts/articles-wyckoff-2024-12-swing-trading-with-point-figur-511.md`
+- `October 27, 2024 at 05:51 PM` | `Secular Shenanigans` | `posts/articles-wyckoff-2024-10-secular-shenanigans-676.md`
+- `September 05, 2024 at 10:38 AM` | `S&P 500 Tempest in a Teapot` | `posts/articles-wyckoff-2024-09-sp-500-tempest-in-a-teapot-268.md`
+- `August 04, 2024 at 04:55 PM` | `Who Let the DOG Out?` | `posts/articles-wyckoff-2024-08-who-let-the-dog-out-970.md`
+- `July 30, 2024 at 04:16 PM` | `S&P 500 Equal Weight ETF Gains Strength` | `posts/articles-wyckoff-2024-07-sp-500-equal-weight-etf-gains-547.md`
+- `June 24, 2024 at 02:32 PM` | `End of Quarter NASDAQ 100 Pile-On` | `posts/articles-wyckoff-2024-06-end-of-quarter-nasdaq-100-pile-956.md`
+- `June 03, 2024 at 05:28 PM` | `Wyckoff at Work in the Intraday Timeframe` | `posts/articles-wyckoff-2024-06-wyckoff-at-work-in-the-intrada-2.md`
+- `April 05, 2024 at 11:49 AM` | `Trifecta of Trouble` | `posts/articles-wyckoff-2024-04-trifecta-of-trouble-402.md`
+- `March 22, 2024 at 02:57 PM` | `Energy Heats Up` | `posts/articles-wyckoff-2024-03-energy-heats-up-900.md`
+- `February 29, 2024 at 05:44 PM` | `Swing Trading Strategies, Tips & Trends` | `posts/articles-stocktalk-2024-02-swing-trading-strategies-tips-487.md`
+- `February 18, 2024 at 05:59 PM` | `What Lies Ahead? Will Early 2024 Strength Continue?` | `posts/articles-wyckoff-2024-02-power-charting-tv-what-lies-ah-98.md`
+- `February 06, 2024 at 01:32 PM` | `Tape Reading for Distribution` | `posts/articles-wyckoff-2024-02-tape-reading-for-distribution-617.md`
+- `November 05, 2023 at 06:04 PM` | `Bonds Got Clipped. Now What?` | `posts/articles-wyckoff-2023-11-bonds-got-clipped-now-what-323.md`
+- `September 10, 2023 at 03:09 PM` | `Percent Scale PnF Technique. Nvidia Case Study.` | `posts/articles-wyckoff-2023-09-percent-scale-pnf-technique-nv-456.md`
+- `August 05, 2023 at 12:58 PM` | `Power Charting TV: Stock Selection with the Wyckoff Market Report` | `posts/articles-wyckoff-2023-08-power-charting-tv-stock-select-487.md`
+- `April 10, 2023 at 01:19 PM` | `Crude Oil Reaches an Interesting Juncture` | `posts/articles-wyckoff-2023-04-crude-oil-reaches-an-interesti-761.md`
+- `February 04, 2023 at 05:44 PM` | `Is the S&P 500 In Late Stage Accumulation?` | `posts/articles-wyckoff-2023-02-is-the-sp-500-in-late-stage-ac-67.md`
+- `December 02, 2022 at 05:37 PM` | `Will the QQQ Swing into Gear?` | `posts/articles-wyckoff-2022-12-will-the-qqq-swing-into-gear-223.md`
+- `October 18, 2022 at 09:20 PM` | `Power Charting TV: Stocks on the Edge` | `posts/articles-wyckoff-2022-10-power-charting-tv-stocks-on-th-935.md`
+- `September 11, 2022 at 05:01 PM` | `Power Charting TV: Accumulation in the Master's Own Words` | `posts/articles-wyckoff-2022-09-power-charting-tv-accumulation-670.md`
+- `August 25, 2022 at 06:47 PM` | `Stocks at a Crossroad` | `posts/articles-wyckoff-2022-08-stocks-at-a-crossroad-891.md`
+- `August 01, 2022 at 06:57 PM` | `A Wyckoff Cause is Forming. What's Next?` | `posts/articles-wyckoff-2022-08-a-wyckoff-cause-is-forming-wha-60.md`
+- `May 02, 2022 at 12:50 PM` | `Is the Trend About to Bend?` | `posts/articles-wyckoff-2022-05-is-the-trend-about-to-bend-736.md`
+- `April 03, 2022 at 04:17 PM` | `Wyckoff Principles within Principles` | `posts/articles-wyckoff-2022-04-wyckoff-principles-within-prin-656.md`
+- `March 01, 2022 at 06:36 PM` | `Distribution or Re-Accumulation?` | `posts/articles-wyckoff-2022-03-distribution-or-reaccumulation-699.md`
+- `January 16, 2022 at 01:40 PM` | `Power Charting TV: Scanning for Springs and Upthrusts` | `posts/articles-wyckoff-2022-01-power-charting-tv-scanning-for-954.md`
+- `November 28, 2021 at 06:18 PM` | `QQQ Teetering + Point & Figure Workshop TV Special` | `posts/articles-wyckoff-2021-11-qqq-teetering-point-figure-wor-739.md`
+- `September 12, 2021 at 05:21 PM` | `AAPL on the Hinge` | `posts/articles-wyckoff-2021-09-aapl-on-the-hinge-226.md`
+- `July 24, 2021 at 02:22 PM` | `Is the DJIA Completing a Wyckoff Reaccumulation?` | `posts/articles-wyckoff-2021-07-is-the-djia-completing-a-wycko-712.md`
+- `July 06, 2021 at 04:04 PM` | `Power Charting TV: Crypto Currency and the Wyckoff Method` | `posts/articles-wyckoff-2021-07-power-charting-tv-crypto-curre-284.md`
+- `May 05, 2021 at 12:38 PM` | `Power Charting TV: Inflation Nation` | `posts/articles-wyckoff-2021-05-power-charting-tv-inflation-na-133.md`
+- `April 23, 2021 at 12:56 PM` | `Identify Campaign Setups with the Wyckoff Method` | `posts/articles-wyckoff-2021-04-identify-campaign-setups-with-727.md`
+- `January 31, 2021 at 08:13 PM` | `Reddit or Not, Short Sellers Get Squeezed` | `posts/articles-wyckoff-2021-01-reddit-or-not-short-sellers-ge-315.md`
+- `January 12, 2021 at 06:16 PM` | `Power Charting TV: Big Investment Themes for 2021` | `posts/articles-wyckoff-2021-01-power-charting-tv-big-investme-361.md`
+- `January 04, 2021 at 12:12 PM` | `Aerojet Soars` | `posts/articles-wyckoff-2021-01-aerojet-soars-21.md`
+- `December 22, 2020 at 02:09 PM` | `Danger Zone` | `posts/articles-wyckoff-2020-12-danger-zone-307.md`
+- `December 08, 2020 at 09:00 AM` | `Sentiment Speaks` | `posts/articles-wyckoff-2020-12-sentiment-speaks-806.md`
+- `September 06, 2020 at 06:27 PM` | `Power Charting TV: A Study of the Current Market` | `posts/articles-wyckoff-2020-09-power-charting-tv-a-study-of-t-923.md`
+- `August 23, 2020 at 05:58 PM` | `Towering TSLA!` | `posts/articles-wyckoff-2020-08-towering-tsla-761.md`
+- `July 13, 2020 at 04:00 PM` | `A NASDAQ 100 Throwover. Is the Uptrend Ending?` | `posts/articles-wyckoff-2020-07-a-nasdaq-100-throwover-is-the-783.md`
+- `June 20, 2020 at 01:44 PM` | `Power Charting TV: Wyckoff Method Checklist for a Peak.` | `posts/articles-wyckoff-2020-06-power-charting-tv-wyckoff-meth-184.md`
+- `June 08, 2020 at 11:47 AM` | `Power Charting TV: Special Guest Roman Bogomazov. Wyckoff Market Discussion 200th Episode, An Invitation to Attend.` | `posts/articles-wyckoff-2020-06-power-charting-tv-special-gues-242.md`
+- `May 25, 2020 at 02:30 PM` | `Work Area Ahead` | `posts/articles-wyckoff-2020-05-work-area-ahead-901.md`
+- `April 26, 2020 at 05:46 PM` | `Stride of the Market in Peril?` | `posts/articles-wyckoff-2020-04-stride-of-the-market-in-peril-184.md`
+- `March 23, 2020 at 03:49 PM` | `Where Were You in '62?` | `posts/articles-wyckoff-2020-03-where-were-you-in-62-231.md`
+- `February 11, 2020 at 12:31 PM` | `Lithium is Charged Up` | `posts/articles-wyckoff-2020-02-lithium-is-charged-up-604.md`
+- `January 20, 2020 at 01:56 PM` | `Dow Jones Industrials. Out of Gas?` | `posts/articles-wyckoff-2020-01-dow-jones-industrials-out-of-g-654.md`
+- `January 05, 2020 at 05:55 PM` | `Power Charting TV: Wyckoff 2020` | `posts/articles-wyckoff-2020-01-power-charting-tv-wyckoff-2020-50.md`
+- `December 24, 2019 at 10:16 AM` | `Power Charting TV: Wyckoff Workshop` | `posts/articles-wyckoff-2019-12-power-charting-tv-wyckoff-work-135.md`
+- `December 18, 2019 at 01:13 PM` | `Power Charting TV: Year End Review and 2020 Outlook` | `posts/articles-wyckoff-2019-12-power-charting-tv-year-end-rev-544.md`
+- `November 30, 2019 at 06:52 PM` | `Ford v Ferrari. A Movie about Trading.` | `posts/articles-wyckoff-2019-11-ford-v-ferrari-a-movie-about-t-725.md`
+- `October 20, 2019 at 04:36 PM` | `Dividends Rule!` | `posts/articles-wyckoff-2019-10-dividends-rule-647.md`
+- `September 23, 2019 at 09:00 AM` | `Meg-Oil` | `posts/articles-wyckoff-2019-09-megoil-576.md`
+- `August 30, 2019 at 02:09 PM` | `Stocks Yield. Bonds Don't` | `posts/articles-wyckoff-2019-08-stocks-yield-bonds-dont-514.md`
+- `August 13, 2019 at 11:51 AM` | `Stock Market Time` | `posts/articles-wyckoff-2019-08-stock-market-time-315.md`
+- `July 23, 2019 at 11:26 AM` | `Silver Standard` | `posts/articles-wyckoff-2019-07-silver-standard.md`
+- `July 08, 2019 at 08:00 AM` | `On the Razor's Edge` | `posts/articles-wyckoff-2019-07-on-the-razors-edge.md`
+- `June 11, 2019 at 08:00 AM` | `Gold v. Dollar` | `posts/articles-wyckoff-2019-06-gold-v-dollar.md`
+- `May 28, 2019 at 12:18 PM` | `Where There's Smoke...` | `posts/articles-wyckoff-2019-05-where-theres-smoke.md`
+- `May 15, 2019 at 01:19 PM` | `Boeing is Big` | `posts/articles-wyckoff-2019-05-boeing-is-big.md`
+- `May 07, 2019 at 05:30 PM` | `Campaign Caravan` | `posts/articles-wyckoff-2019-05-campaign-caravan.md`
+- `April 22, 2019 at 08:30 AM` | `Health Care Crisis` | `posts/articles-wyckoff-2019-04-health-care-crisis.md`
+- `April 10, 2019 at 03:08 PM` | `WYNN Win` | `posts/articles-wyckoff-2019-04-wynn-win.md`
+- `April 03, 2019 at 12:52 PM` | `Yields Flatten` | `posts/articles-wyckoff-2019-04-yields-flatten.md`
+- `March 20, 2019 at 02:52 PM` | `Trucks. Trains. Airplanes.` | `posts/articles-wyckoff-2019-03-trucks-trains-airplanes.md`
+- `March 12, 2019 at 08:00 AM` | `Residential Constructive` | `posts/articles-wyckoff-2019-03-residential-constructive.md`
+- `March 05, 2019 at 07:00 AM` | `S&P 500 Trending` | `posts/articles-wyckoff-2019-03-sp-500-trending.md`
+- `February 23, 2019 at 08:00 AM` | `Material Development` | `posts/articles-wyckoff-2019-02-material-development.md`
+- `February 11, 2019 at 04:37 PM` | `WDAY Works Out` | `posts/articles-wyckoff-2019-02-wday-works-out.md`
+- `February 03, 2019 at 05:28 PM` | `Golden Ticket` | `posts/articles-wyckoff-2019-02-golden-ticket.md`
+- `January 22, 2019 at 12:23 PM` | `AAPL Campaign Completed` | `posts/articles-wyckoff-2019-01-aapl-campaign-completed.md`
+- `January 10, 2019 at 06:00 AM` | `Will PnF Light the Way in 2019` | `posts/articles-wyckoff-2019-01-will-pnf-light-the-way-in-2019.md`
+- `December 29, 2018 at 08:00 AM` | `The NASDAQ Composite Stumbles into 2019` | `posts/articles-wyckoff-2018-12-the-nasdaq-composite-stumbles-into-2019.md`
+- `December 10, 2018 at 07:10 PM` | `Yield Curve Inversion?` | `posts/articles-wyckoff-2018-12-yield-curve-inversion.md`
+- `December 03, 2018 at 07:00 AM` | `International Intrigue` | `posts/articles-wyckoff-2018-12-international-intrigue.md`
+- `November 25, 2018 at 02:48 PM` | `Semi. Campaign. Completion?` | `posts/articles-wyckoff-2018-11-semi-campaign-completion.md`
+- `November 13, 2018 at 07:45 PM` | `Natural Gas Lights Up` | `posts/articles-wyckoff-2018-11-natural-gas-lights-up.md`
+- `November 05, 2018 at 11:47 PM` | `Using PnF Charts for Intraday Trading` | `posts/articles-wyckoff-2018-11-using-pnf-charts-for-intraday-trading.md`
+- `October 27, 2018 at 06:06 PM` | `Nasdaq Composite. Down for the Count?` | `posts/articles-wyckoff-2018-10-nasdaq-composite-down-for-the-count.md`
+- `October 20, 2018 at 04:03 PM` | `Headwinds` | `posts/articles-wyckoff-2018-10-headwinds.md`
+- `October 08, 2018 at 03:16 PM` | `Health Care Plan` | `posts/articles-wyckoff-2018-10-health-care-plan.md`
+- `September 27, 2018 at 12:13 PM` | `Campaigning Crude Oil` | `posts/articles-wyckoff-2018-09-campaigning-crude-oil.md`
+- `September 19, 2018 at 08:00 AM` | `deFANG'd?` | `posts/articles-wyckoff-2018-09-defangd.md`
+- `September 10, 2018 at 03:52 PM` | `Semi-Tough` | `posts/articles-wyckoff-2018-09-semi-tough.md`
+- `August 28, 2018 at 01:50 PM` | `Prospecting for a Low in Gold` | `posts/articles-wyckoff-2018-08-prospecting-for-a-low-in-gold.md`
+- `August 18, 2018 at 08:00 AM` | `Residential Deconstruction` | `posts/articles-wyckoff-2018-08-residential-deconstruction.md`
+- `August 05, 2018 at 05:19 PM` | `Homework Assignment` | `posts/articles-wyckoff-2018-08-homework-assignment.md`
+- `July 27, 2018 at 03:43 PM` | `Russell Revisited` | `posts/articles-wyckoff-2018-07-russell-revisited.md`
+- `July 23, 2018 at 02:31 PM` | `Is Your Money Safe in Banks?` | `posts/articles-wyckoff-2018-07-is-your-money-safe-in-banks.md`
+- `July 15, 2018 at 08:25 PM` | `Tactical Dilemma` | `posts/articles-wyckoff-2018-07-tactical-dilemma-.md`
+- `July 08, 2018 at 03:00 PM` | `Wyckoff Intraday Workshop` | `posts/articles-wyckoff-2018-07-wyckoff-intraday-workshop.md`
+- `June 30, 2018 at 07:14 PM` | `A Mid-Year Look at FANG Stocks` | `posts/articles-wyckoff-2018-06-a-mid-year-look-at-fang-stocks.md`
+- `June 24, 2018 at 04:07 PM` | `Retail Roll-Reversal` | `posts/articles-wyckoff-2018-06-retail-roll-reversal.md`
+- `June 19, 2018 at 11:51 AM` | `Solar Stocks Go Dark` | `posts/articles-wyckoff-2018-06-solar-stocks-go-dark.md`
+- `June 15, 2018 at 02:46 PM` | `Tale of the Tape` | `posts/articles-wyckoff-2018-06-tale-of-the-tape.md`
+- `June 03, 2018 at 03:34 PM` | `BankRoll` | `posts/articles-wyckoff-2018-06-bankroll.md`
+- `May 26, 2018 at 01:08 PM` | `Ship in a Bottle` | `posts/articles-wyckoff-2018-05-ship-in-a-bottle.md`
+- `May 20, 2018 at 02:30 AM` | `Two Way Markets` | `posts/articles-wyckoff-2018-05-two-way-markets.md`
+- `May 12, 2018 at 04:30 AM` | `Richard W. Arms Jr., Wyckoffian` | `posts/articles-wyckoff-2018-05-richard-w-arms-jr-wyckoffian.md`
+- `May 04, 2018 at 06:53 PM` | `Does This Market Have Bad Breadth?` | `posts/articles-wyckoff-2018-05-does-this-market-have-bad-breadth.md`
+- `April 28, 2018 at 08:00 PM` | `A Wyckoff Week` | `posts/articles-wyckoff-2018-04-a-wyckoff-week.md`
+- `April 23, 2018 at 06:00 AM` | `Jumping the Creek. A Review.` | `posts/articles-wyckoff-2018-04-jumping-the-creek-a-review.md`
+- `April 15, 2018 at 03:00 PM` | `Win the Race with Relative Strength` | `posts/articles-wyckoff-2018-04-win-the-race-with-relative-strength.md`
+- `April 08, 2018 at 01:20 PM` | `S&P 500. Zooming In.` | `posts/articles-wyckoff-2018-04-sp-500-zooming-in.md`
+- `March 31, 2018 at 11:25 PM` | `Detect Rotation with PnF Charts` | `posts/articles-wyckoff-2018-03-detect-rotation-with-pnf-charts.md`
+- `March 26, 2018 at 02:56 PM` | `S&P 500 Notebook` | `posts/articles-wyckoff-2018-03-sp-500-notebook.md`
+- `March 24, 2018 at 08:00 AM` | `Interest Rates. How High?` | `posts/articles-wyckoff-2018-03-interest-rates-how-high.md`
+- `March 12, 2018 at 07:00 AM` | `Combining Wyckoff and Relative Strength to Find Big Trends` | `posts/articles-wyckoff-2018-03-combining-wyckoff-and-relative-strength-to-find-big-trends.md`
+- `March 04, 2018 at 03:00 AM` | `Divining Distribution` | `posts/articles-wyckoff-2018-03-divining-distribution.md`
+- `February 25, 2018 at 04:07 PM` | `Distribution Review` | `posts/articles-wyckoff-2018-02-distribution-review.md`
+- `February 19, 2018 at 12:53 PM` | `The Law of Cause and Effect in Action` | `posts/articles-wyckoff-2018-02-the-law-of-cause-and-effect-in-action.md`
+- `February 11, 2018 at 09:30 AM` | `Bonds Get Clipped` | `posts/articles-wyckoff-2018-02-bonds-get-clipped.md`
+- `February 04, 2018 at 02:41 PM` | `AAPL Pie` | `posts/articles-wyckoff-2018-02-aapl-pie.md`
+- `January 27, 2018 at 08:00 AM` | `Inflation Incubation` | `posts/articles-wyckoff-2018-01-inflation-incubation.md`
+- `January 20, 2018 at 05:30 PM` | `Swing Trading Case Study` | `posts/articles-wyckoff-2018-01-swing-trading-case-study.md`
+- `January 13, 2018 at 02:22 PM` | `Reaccumulation Review` | `posts/articles-wyckoff-2018-01-reaccumulation-review.md`
+- `January 06, 2018 at 08:00 AM` | `Schlumberger Rising` | `posts/articles-wyckoff-2018-01-schlumberger-rising.md`
+- `December 16, 2017 at 12:20 PM` | `Year-End Cleanup` | `posts/articles-wyckoff-2017-12-year-end-cleanup.md`
+- `December 10, 2017 at 08:00 AM` | `Dow Jones Industrials PnF Dilemma` | `posts/articles-wyckoff-2017-12-dow-jones-industrials-pnf-dilemma.md`
+- `December 02, 2017 at 08:00 AM` | `Do Semiconductors Still Compute?` | `posts/articles-wyckoff-2017-12-do-semiconductors-still-compute.md`
+- `November 20, 2017 at 04:37 PM` | `Natural Gas Follows Crude?` | `posts/articles-wyckoff-2017-11-natural-gas-follows-crude.md`
+- `November 11, 2017 at 08:00 AM` | `Crude Oil Runs with the Bulls` | `posts/articles-wyckoff-2017-11-crude-oil-runs-with-the-bulls.md`
+- `November 05, 2017 at 12:03 PM` | `Tesla Recharging?` | `posts/articles-wyckoff-2017-11-tesla-recharging.md`
+- `October 29, 2017 at 02:30 PM` | `NASDAQ Composite. Trick or Treat?` | `posts/articles-wyckoff-2017-10-nasdaq-composite-trick-or-treat.md`
+- `October 22, 2017 at 08:00 AM` | `GE's Wild Ride` | `posts/articles-wyckoff-2017-10-ges-wild-ride.md`
+- `October 15, 2017 at 04:00 PM` | `Dear Point and Figure Diary` | `posts/articles-wyckoff-2017-10-dear-point-and-figure-diary.md`
+- `October 07, 2017 at 07:00 AM` | `Chemistry Experiment` | `posts/articles-wyckoff-2017-10-chemistry-experiment.md`
+- `September 26, 2017 at 03:01 PM` | `Group Dynamics` | `posts/articles-wyckoff-2017-09-group-dynamics.md`
+- `September 20, 2017 at 07:00 AM` | `$COMPQ Up Close` | `posts/articles-wyckoff-2017-09-compq-up-close.md`
+- `September 12, 2017 at 06:40 PM` | `Dr. Henry O. (Hank) Pruden 1936-2017` | `posts/articles-wyckoff-2017-09-dr-henry-o-hank-pruden--------------------------------------------------------1936-2017.md`
+- `September 03, 2017 at 02:09 PM` | `Working up WDAY` | `posts/articles-wyckoff-2017-09-working-up-wday.md`
+- `August 26, 2017 at 10:20 AM` | `Transports Hit the Wall` | `posts/articles-wyckoff-2017-08-transports-hit-the-wall.md`
+- `August 18, 2017 at 07:00 AM` | `Range Bound NDX` | `posts/articles-wyckoff-2017-08-range-bound-ndx.md`
+- `August 12, 2017 at 08:00 AM` | `Wyckoff the International Language` | `posts/articles-wyckoff-2017-08-wyckoff-the-international-language.md`
+- `August 01, 2017 at 08:27 PM` | `A Dollar for Your Thoughts` | `posts/articles-wyckoff-2017-08-a-dollar-for-your-thoughts.md`
+- `July 29, 2017 at 12:05 PM` | `Campaigning Gold` | `posts/articles-wyckoff-2017-07-campaigning-gold.md`
+- `July 22, 2017 at 08:00 AM` | `The Hustling Russell` | `posts/articles-wyckoff-2017-07-the-hustling-russell.md`
+- `July 15, 2017 at 11:44 AM` | `Point & Figure Diary` | `posts/articles-wyckoff-2017-07-point--figure-diary.md`
+- `July 08, 2017 at 12:20 PM` | `FANGtastic Trendlines` | `posts/articles-wyckoff-2017-07-fangtastic-trendlines.md`
+- `June 26, 2017 at 03:11 PM` | `WFM Is Swallowed Whole` | `posts/articles-wyckoff-2017-06-wfm-is-swallowed-whole.md`
+- `June 17, 2017 at 08:00 AM` | `More Pie. Bigger Sky!` | `posts/articles-wyckoff-2017-06-more-pie-bigger-sky.md`
+- `June 10, 2017 at 08:00 AM` | `Shorts Find TSLA Shocking` | `posts/articles-wyckoff-2017-06-shorts-find-tsla-shocking.md`
+- `June 03, 2017 at 09:30 AM` | `Another Stupid Chart Trick` | `posts/articles-wyckoff-2017-06-another-stupid-chart-trick.md`
+- `May 27, 2017 at 08:00 AM` | `Segmenting PnF Counts` | `posts/articles-wyckoff-2017-05-segmenting-pnf-counts.md`
+- `May 20, 2017 at 08:00 AM` | `The New Nifty Fifty` | `posts/articles-wyckoff-2017-05-the-new-nifty-fifty.md`
+- `May 13, 2017 at 08:00 AM` | `Pedaling Wyckoff` | `posts/articles-wyckoff-2017-05-pedaling-wyckoff.md`
+- `May 06, 2017 at 08:00 AM` | `Junk is in the Eye of the Beholder` | `posts/articles-wyckoff-2017-05-junk-is-in-the-eye-of-the-beholder.md`
+- `April 29, 2017 at 12:48 PM` | `Around the World in 21 Ways` | `posts/articles-wyckoff-2017-04-around-the-world-in-21-ways.md`
+- `April 18, 2017 at 03:55 PM` | `The Big AAPL` | `posts/articles-wyckoff-2017-04-the-big-aapl.md`
+- `April 08, 2017 at 02:31 PM` | `Zim's Group` | `posts/articles-wyckoff-2017-04-zims-group.md`
+- `March 30, 2017 at 12:00 PM` | `Financial Sector Update` | `posts/articles-wyckoff-2017-03-financial-sector-update.md`
+- `March 25, 2017 at 12:00 PM` | `Animal Spirits` | `posts/articles-wyckoff-2017-03-animal-spirits.md`
+- `March 18, 2017 at 09:00 AM` | `Crude Oil's Slippery Slope` | `posts/articles-wyckoff-2017-03-crude-oils-slippery-slope.md`
+- `March 11, 2017 at 10:00 AM` | `NASDAQ 100 Index. A Current Case Study.` | `posts/articles-wyckoff-2017-03-nasdaq-100-index-a-current-case-study.md`
+- `March 04, 2017 at 10:30 AM` | `Get to the Point and Figure` | `posts/articles-wyckoff-2017-03-get-to-the-point-and-figure.md`
+- `February 25, 2017 at 12:00 PM` | `Three Legged Stool` | `posts/articles-wyckoff-2017-02-three-legged-stool.md`
+- `February 18, 2017 at 02:02 PM` | `Bonds. Shaken, Not Stirred.` | `posts/articles-wyckoff-2017-02-bonds-shaken-not-stirred.md`
+- `February 11, 2017 at 08:00 AM` | `Avoidance Strategy` | `posts/articles-wyckoff-2017-02-avoidance-strategy.md`
+- `February 04, 2017 at 11:50 AM` | `Sectors. Groups. Stocks.` | `posts/articles-wyckoff-2017-02-sectors-groups-stocks.md`
+- `January 28, 2017 at 10:00 AM` | `In Gear with Relative Strength` | `posts/articles-wyckoff-2017-01-in-gear-with-relative-strength.md`
+- `January 21, 2017 at 08:00 AM` | `Stair Step to Profits` | `posts/articles-wyckoff-2017-01-stair-step-to-profits.md`
+- `January 15, 2017 at 01:54 PM` | `Enjoying the Short Term View` | `posts/articles-wyckoff-2017-01-enjoying-the-short-term-view.md`
+- `January 07, 2017 at 01:41 PM` | `Going for the Gold` | `posts/articles-wyckoff-2017-01-going-for-the-gold.md`
+- `December 27, 2016 at 06:00 PM` | `Holiday Chartfest` | `posts/articles-wyckoff-2016-12-holiday-chartfest.md`
+- `December 17, 2016 at 10:00 AM` | `The Inner Game of Wyckoff` | `posts/articles-wyckoff-2016-12-the-inner-game-of-wyckoff.md`
+- `December 10, 2016 at 03:40 PM` | `There are No Free Lunches` | `posts/articles-wyckoff-2016-12-there-are-no-free-lunches.md`
+- `December 03, 2016 at 02:40 PM` | `Why Point and Figure Works` | `posts/articles-wyckoff-2016-12-why-point-and-figure-works.md`
+- `November 22, 2016 at 12:00 PM` | `Get Your Motor Going` | `posts/articles-wyckoff-2016-11-get-your-motor-going.md`
+- `November 12, 2016 at 03:55 PM` | `Main Street vs. Wall Street` | `posts/articles-wyckoff-2016-11-main-street-vs-wall-street.md`
+- `November 03, 2016 at 02:50 PM` | `The Broadening Top Formation` | `posts/articles-wyckoff-2016-11-the-broadening-top-formation.md`
+- `October 29, 2016 at 08:00 AM` | `Wyckoff Doodles` | `posts/articles-wyckoff-2016-10-wyckoff-doodles.md`
+- `October 22, 2016 at 08:00 AM` | `Does Lightening Strike Twice?` | `posts/articles-wyckoff-2016-10-does-lightening-strike-twice.md`
+- `October 15, 2016 at 01:00 PM` | `Wyckoff Nation` | `posts/articles-wyckoff-2016-10-wyckoff-nation.md`
+- `October 07, 2016 at 09:00 AM` | `Wyckoff Bonding` | `posts/articles-wyckoff-2016-10-wyckoff-bonding.md`
+- `September 30, 2016 at 04:04 PM` | `Wyckoff Chartfest` | `posts/articles-wyckoff-2016-09-wyckoff-chartfest.md`
+- `September 17, 2016 at 03:46 PM` | `An AAPL for Your Thoughts` | `posts/articles-wyckoff-2016-09-an-aapl-for-your-thoughts.md`
+- `September 10, 2016 at 11:00 AM` | `Tracking Big Footprints` | `posts/articles-wyckoff-2016-09-tracking-big-footprints.md`
+- `September 02, 2016 at 01:00 AM` | `Action - Test` | `posts/articles-wyckoff-2016-09-action--test.md`
+- `August 27, 2016 at 03:10 PM` | `Phase Analysis. Two Case Studies` | `posts/articles-wyckoff-2016-08-phase-analysis-two-case-studies.md`
+- `August 13, 2016 at 04:35 PM` | `The Really Big Picture` | `posts/articles-wyckoff-2016-08-the-really-big-picture.md`
+- `August 06, 2016 at 04:53 PM` | `A Gaggle of Groups` | `posts/articles-wyckoff-2016-08-a-gaggle-of-groups.md`
+- `July 29, 2016 at 03:02 PM` | `Beach Reads` | `posts/articles-wyckoff-2016-07-beach-reads.md`
+- `July 22, 2016 at 04:12 PM` | `Point and Figure Pie in the Sky?` | `posts/articles-wyckoff-2016-07-point-and-figure-pie-in-the-sky.md`
+- `July 16, 2016 at 04:06 PM` | `Getting on the Gas` | `posts/articles-wyckoff-2016-07-getting-on-the-gas.md`
+- `July 08, 2016 at 12:40 PM` | `Gold Fever` | `posts/articles-wyckoff-2016-07-gold-fever.md`
+- `July 01, 2016 at 03:38 PM` | `Stupid Chart Tricks` | `posts/articles-wyckoff-2016-07-stupid-chart-tricks-.md`
+- `June 26, 2016 at 11:08 PM` | `breXit and O's` | `posts/articles-wyckoff-2016-06-brexit-and-os.md`
+- `June 17, 2016 at 03:04 PM` | `Putting It All Together` | `posts/articles-wyckoff-2016-06-putting-it-all-together.md`
+- `June 10, 2016 at 04:03 PM` | `The Unfriendly Skies` | `posts/articles-wyckoff-2016-06-the-unfriendly-skies.md`
+- `June 03, 2016 at 02:52 PM` | `How Now Charles Dow?` | `posts/articles-wyckoff-2016-06-how-now-charles-dow.md`
+- `May 27, 2016 at 11:25 AM` | `Group Stink` | `posts/articles-wyckoff-2016-05-group-stink.md`
+- `May 19, 2016 at 07:22 PM` | `Wyckoff Group Think` | `posts/articles-wyckoff-2016-05-wyckoff-group-think.md`
+- `May 12, 2016 at 06:33 PM` | `Wyckoff Power Charting. Happy Birthday!` | `posts/articles-wyckoff-2016-05-wyckoff-power-charting-happy-birthday.md`
+- `May 06, 2016 at 03:49 PM` | `Springing into Action` | `posts/articles-wyckoff-2016-05-springing-into-action.md`
+- `May 03, 2016 at 04:05 PM` | `Current Point and Figure Counts` | `posts/articles-wyckoff-2016-05-current-point-and-figure-counts.md`
+- `April 29, 2016 at 04:27 PM` | `Trading the Reaccumulation` | `posts/articles-wyckoff-2016-04-trading-the-reaccumulation.md`
+- `April 22, 2016 at 03:48 PM` | `Wyckoff Skill Building` | `posts/articles-wyckoff-2016-04-wyckoff-skill-building.md`
+- `April 15, 2016 at 11:58 AM` | `Wyckoff Buy Strategies` | `posts/articles-wyckoff-2016-04-wyckoff-buy-strategies.md`
+- `April 08, 2016 at 02:36 PM` | `Stalking the Trade` | `posts/articles-wyckoff-2016-04-stalking-the-trade.md`
+- `April 01, 2016 at 03:50 PM` | `How to Determine the Best Trade Entry Points` | `posts/articles-wyckoff-2016-04-how-to-determine-the-best-trade-entry-points.md`
+- `March 18, 2016 at 05:00 PM` | `Distribution Power Waves` | `posts/articles-wyckoff-2016-03-distribution-power-waves.md`
+- `March 11, 2016 at 04:25 PM` | `Judging Power Waves` | `posts/articles-wyckoff-2016-03-judging-power-waves.md`
+- `March 04, 2016 at 03:22 PM` | `Point and Figure Analysis with Intraday Charts` | `posts/articles-wyckoff-2016-03-point-and-figure-analysis-with-intraday-charts.md`
+- `February 26, 2016 at 12:00 PM` | `Crude Oil Update` | `posts/articles-wyckoff-2016-02-crude-oil-update.md`
+- `February 19, 2016 at 01:31 PM` | `Wyckoff Time` | `posts/articles-wyckoff-2016-02-wyckoff-time.md`
+- `February 12, 2016 at 02:58 PM` | `The Point and Figure Distribution Paradox` | `posts/articles-wyckoff-2016-02-the-point-and-figure-distribution-paradox.md`
+- `February 05, 2016 at 02:56 PM` | `Point and Figure Pauses that Refresh` | `posts/articles-wyckoff-2016-02-point-and-figure-pauses-that-refresh.md`
+- `January 29, 2016 at 11:17 AM` | `Counting Monster Point & Figure Charts` | `posts/articles-wyckoff-2016-01-counting-monster-point--figure-charts.md`
+- `January 22, 2016 at 12:28 PM` | `Point and Figure Magic` | `posts/articles-wyckoff-2016-01-point-and-figure-magic.md`
+- `January 16, 2016 at 03:08 PM` | `Secrets of Point and Figure Distribution` | `posts/articles-wyckoff-2016-01-secrets-of-point-and-figure-distribution.md`
+- `January 08, 2016 at 02:19 PM` | `Unlocking the Mysteries of Point and Figure Charts` | `posts/articles-wyckoff-2016-01-unlocking-the-mysteries-of-point-and-figure-charts.md`
+- `January 01, 2016 at 05:49 PM` | `Intro to Point and Figure Construction` | `posts/articles-wyckoff-2016-01-intro-to-point-and-figure-construction.md`
+- `December 17, 2015 at 11:02 PM` | `Crude Oil; How Low Can it Go?` | `posts/articles-wyckoff-2015-12-crude-oil-how-low-can-it-go.md`
+- `December 11, 2015 at 11:06 AM` | `The Illustrated Wyckoff` | `posts/articles-wyckoff-2015-12-the-illustrated-wyckoff.md`
+- `December 04, 2015 at 02:48 PM` | `The Laws of Wyckoff` | `posts/articles-wyckoff-2015-12-the-laws-of-wyckoff.md`
+- `November 20, 2015 at 12:19 PM` | `Wyckoff Walk Around the Clock` | `posts/articles-wyckoff-2015-11-wyckoff-walk-around-the-clock.md`
+- `November 14, 2015 at 12:38 PM` | `Redistribution - A Case Study` | `posts/articles-wyckoff-2015-11-redistribution--a-case-study.md`
+- `November 06, 2015 at 02:54 PM` | `Redistribution, the Evil Twin` | `posts/articles-wyckoff-2015-11-redistribution-the-evil-twin.md`
+- `October 30, 2015 at 03:50 PM` | `Redistribution Ruckus` | `posts/articles-wyckoff-2015-10-redistribution-ruckus--.md`
+- `October 22, 2015 at 03:29 PM` | `Trendapalooza` | `posts/articles-wyckoff-2015-10-trendapalooza.md`
+- `October 13, 2015 at 05:01 PM` | `The Unfriendly Trend` | `posts/articles-wyckoff-2015-10-the-unfriendly-trend.md`
+- `October 02, 2015 at 04:25 PM` | `The Way of Wyckoff` | `posts/articles-wyckoff-2015-10-the-way-of-wyckoff.md`
+- `September 24, 2015 at 12:27 PM` | `Distribution Definitions` | `posts/articles-wyckoff-2015-09-distribution-definitions.md`
+- `September 18, 2015 at 04:23 PM` | `Just Another Phase` | `posts/articles-wyckoff-2015-09-just-another-phase.md`
+- `September 11, 2015 at 11:18 AM` | `Context is King` | `posts/articles-wyckoff-2015-09-context-is-king.md`
+- `September 04, 2015 at 02:47 PM` | `Just Charts` | `posts/articles-wyckoff-2015-09-just-charts.md`
+- `August 28, 2015 at 04:04 PM` | `Follow the Bouncing Ball` | `posts/articles-wyckoff-2015-08-follow-the-bouncing-ball-.md`
+- `August 21, 2015 at 04:15 PM` | `Take the Fork in the Road` | `posts/articles-wyckoff-2015-08-take-the-fork-in-the-road.md`
+- `August 07, 2015 at 01:47 PM` | `When Termites Get into Your Trends` | `posts/articles-wyckoff-2015-08-when-termites-get-into-your-trends.md`
+- `July 31, 2015 at 03:23 PM` | `Reaccumulation Roundup` | `posts/articles-wyckoff-2015-07-reaccumulation-roundup.md`
+- `July 24, 2015 at 10:22 AM` | `Rev Up with Reaccumulation Trading Ranges` | `posts/articles-wyckoff-2015-07-rev-up-with-reaccumulation-trading-ranges.md`
+- `July 17, 2015 at 12:42 AM` | `Being a Chart Whisperer` | `posts/articles-wyckoff-2015-07-being-a-chart-whisperer.md`
+- `July 09, 2015 at 08:23 PM` | `Making the Trend Your Friend` | `posts/articles-wyckoff-2015-07-making-the-trend-your-friend.md`
+- `July 01, 2015 at 07:06 PM` | `Wyckoff Power Charting. Let's Review` | `posts/articles-wyckoff-2015-07-wyckoff-power-charting-lets-review.md`
+- `June 23, 2015 at 10:23 AM` | `Jumping the Creek` | `posts/articles-wyckoff-2015-06-jumping-the-creek.md`
+- `June 13, 2015 at 05:47 PM` | `Francis Bacon Reveals the Nature of Trends` | `posts/articles-wyckoff-2015-06-francis-bacon-reveals-the-nature-of-trends.md`
+- `June 07, 2015 at 04:10 PM` | `Fun With Current Charts, Wyckoff Style` | `posts/articles-wyckoff-2015-06-fun-with-current-charts-wyckoff-style.md`
+- `June 02, 2015 at 09:35 PM` | `Accumulation Phase; Absorbing Stock Like a Sponge` | `posts/articles-wyckoff-2015-06-accumulation-phase-absorbing-stock-like-a-sponge.md`
+- `May 26, 2015 at 08:39 PM` | `The Stopping Action of a Downtrend` | `posts/articles-wyckoff-2015-05-the-stopping-of-a-downtrend.md`
+- `May 19, 2015 at 10:39 PM` | `Richard D. Wyckoff's REAL Rules of the Game` | `posts/articles-wyckoff-2015-05-richard-d-wyckoffs-real-rules-of-the-game.md`
+- `May 11, 2015 at 07:08 PM` | `Getting some Basic Wyckoff Terminology Under our Belts` | `posts/articles-wyckoff-2015-05-getting-some-basic-wyckoff-terminology-under-our-belts.md`

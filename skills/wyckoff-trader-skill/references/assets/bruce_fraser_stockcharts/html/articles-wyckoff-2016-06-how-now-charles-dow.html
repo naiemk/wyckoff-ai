@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>How Now Charles Dow?</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="https://d.stockcharts.com/favicon.gif" type="image/gif" />
+
+        <!-- BOOTSTRAP -->
+        <link href="https://d.stockcharts.com/vendor/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- SITEWIDE FONTS -->
+        <link href="https://d.stockcharts.com/css/google-fonts.css" rel="stylesheet" />
+        <!-- SCC ICONS -->
+        <link href="https://d.stockcharts.com/css/lib/scc-icons-square.css" rel="stylesheet" type="text/css" />
+        <!-- SITEWIDE CSS -->
+        <link href="https://d.stockcharts.com/css/scc-universal.css?v=20240729" rel="stylesheet" type="text/css" media="all" />
+        <!-- FONT AWESOME -->
+        <link href="https://d.stockcharts.com/font-awesome/css/all.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- JS (SHARED) -->
+        <script src="https://d.stockcharts.com/vendor/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+        <script src="https://d.stockcharts.com/vendor/bootstrap/3.4.1/js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- SCC JS -->
+        <script src="https://d.stockcharts.com/js/scc-universal-v2.js" type="text/javascript"></script>
+        <!-- SCC STANDARD PAGE ADJUSTMENTS -->
+        <script src="https://d.stockcharts.com/js/scc-standard-page-adjustments.js" type="text/javascript" defer></script>
+
+        <script type="text/javascript">
+            window.areRaptiveAdsEnabled = true;
+        </script>
+
+        <link rel="preload" as="style" href="https://articles.stockcharts.com/assets/built/screen.css?v=86f57067f5" />
+        <link rel="preload" as="script" href="https://articles.stockcharts.com/assets/built/source.js?v=86f57067f5" />
+
+        <link rel="stylesheet" type="text/css" href="https://articles.stockcharts.com/assets/built/screen.css?v=86f57067f5" />
+
+        <style>
+            :root {
+                --background-color: #f2f5f7;
+            }
+        </style>
+
+        <script>
+            /* The script for calculating the color contrast has been taken from
+            https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+            var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+            accentColor = accentColor.trim().slice(1);
+
+            if (accentColor.length === 3) {
+                accentColor = accentColor[0] + accentColor[0] + accentColor[1] + accentColor[1] + accentColor[2] + accentColor[2];
+            }
+
+            var r = parseInt(accentColor.substr(0, 2), 16);
+            var g = parseInt(accentColor.substr(2, 2), 16);
+            var b = parseInt(accentColor.substr(4, 2), 16);
+            var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+            var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+            document.documentElement.className = `has-${textColor}-text`;
+        </script>
+
+        <script>
+            $(function () {
+                // FORCE ARTICLE CONTENT LINKS TO OPEN IN NEW TABS
+                $('.gh-content a[href], .post-content a[href], .kg-card a[href]')
+                    .prop('target', '_blank')
+                    .prop('rel', 'noopener noreferrer');
+            });
+        </script>
+
+        <script src="https://cdn.usefathom.com/script.js" data-site="OYUKAEFW" defer></script>
+
+        <link rel="icon" href="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/size/w256h256/2025/01/scc-logo-icon.png" type="image/png">
+    <link rel="canonical" href="https://articles.stockcharts.com/article/articles-wyckoff-2016-06-how-now-charles-dow/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="StockCharts.com Articles and Market Commentary">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="How Now Charles Dow?">
+    <meta property="og:description" content="My first teaching assignment at Golden Gate University was the survey course, FI352 ‘Technical Analysis of Securities’. This course is devoted to the study of the major technical analysis methods. It is a wonderful course for becoming familiar with the vast body of knowledge that is technical analysis. When I">
+    <meta property="og:url" content="https://articles.stockcharts.com/article/articles-wyckoff-2016-06-how-now-charles-dow/">
+    <meta property="og:image" content="https://d.stockcharts.com/img/articles/2016/06/14649769165221746825581.jpg">
+    <meta property="article:published_time" content="2016-06-03T18:52:28.000Z">
+    <meta property="article:modified_time" content="2020-01-06T08:00:16.000Z">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/stockchartsdotcom">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How Now Charles Dow?">
+    <meta name="twitter:description" content="My first teaching assignment at Golden Gate University was the survey course, FI352 ‘Technical Analysis of Securities’. This course is devoted to the study of the major technical analysis methods. It is a wonderful course for becoming familiar with the vast body of knowledge that is technical analysis. When I">
+    <meta name="twitter:url" content="https://articles.stockcharts.com/article/articles-wyckoff-2016-06-how-now-charles-dow/">
+    <meta name="twitter:image" content="https://d.stockcharts.com/img/articles/2016/06/14649769165221746825581.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Bruce Fraser">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="">
+    <meta name="twitter:site" content="@stockcharts">
+    <meta property="og:image:width" content="450">
+    <meta property="og:image:height" content="577">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "StockCharts.com Articles and Market Commentary",
+        "url": "https://articles.stockcharts.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/size/w256h256/2025/01/scc-logo-icon.png",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Bruce Fraser",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/profile-img-bf.png",
+            "width": 500,
+            "height": 500
+        },
+        "url": "https://articles.stockcharts.com/author/bruce-fraser/",
+        "sameAs": [
+            "https://stockcharts.com/articles/bios/bruce-fraser.html"
+        ]
+    },
+    "headline": "How Now Charles Dow?",
+    "url": "https://articles.stockcharts.com/article/articles-wyckoff-2016-06-how-now-charles-dow/",
+    "datePublished": "2016-06-03T18:52:28.000Z",
+    "dateModified": "2020-01-06T08:00:16.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://d.stockcharts.com/img/articles/2016/06/14649769165221746825581.jpg",
+        "width": 450,
+        "height": 577
+    },
+    "description": "My first teaching assignment at Golden Gate University was the survey course, FI352 ‘Technical Analysis of Securities’. This course is devoted to the study of the major technical analysis methods. It is a wonderful course for becoming familiar with the vast body of knowledge that is technical analysis. When I began teaching FI352 it was the only graduate course available on the subject at an accredited university. Today, in addition to FI352, there is an entire graduate degree program in technic",
+    "mainEntityOfPage": "https://articles.stockcharts.com/article/articles-wyckoff-2016-06-how-now-charles-dow/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.34">
+    <link rel="alternate" type="application/rss+xml" title="StockCharts.com Articles and Market Commentary" href="https://articles.stockcharts.com/article/rss/">
+    
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="31bfc8825ce75bee16dfbe2ab6" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://stockcharts.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://articles.stockcharts.com/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=86f57067f5"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=86f57067f5">
+    <script defer src="/public/comment-counts.min.js?v=86f57067f5" data-ghost-comments-counts-api="https://articles.stockcharts.com/members/api/comments/counts/"></script>
+    <script defer src="/public/ghost-stats.min.js?v=86f57067f5" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://articles.stockcharts.com/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2" tb_post_uuid="e97c4cf5-670c-4a2e-a3ac-a789572d3201" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined"></script><style>:root {--ghost-accent-color: #0b4c87;}</style>
+    <style>
+  .c-footer-copy span { display: none; }
+</style>
+    <link rel="preconnect" href="https://fonts.bunny.net"><link rel="stylesheet" href="https://fonts.bunny.net/css?family=merriweather:300,700"><style>:root {--gh-font-heading: Merriweather;--gh-font-body: Merriweather;}</style>
+
+    </head>
+    <body id="page-top" class="post-template tag-hash-author-bruce-fraser gh-font-heading-merriweather gh-font-body-merriweather">
+
+        <!-- SCC NAVBAR -->
+<nav id="scc-navbar" class="navbar navbar-inverse navbar-blue navbar-static-top">
+    <div class="container-fluid">
+        <!-- NAV UPPER -->
+        <div id="nav-upper" class="row">
+            <!-- NAVBAR BRAND -->
+            <a href="/" class="navbar-brand">
+                <img src="//d.stockcharts.com/img/scc-logo-light.png" alt="StockCharts Logo" class="navbar-logo" />
+                <img src="//d.stockcharts.com/img/scc-logo-icon.png" alt="StockCharts Icon" class="navbar-logo logo-icon" />
+            </a>
+            <!-- MENU TOGGLE -->
+            <div id="nav-menuToggle" class="nav navbar-nav">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menuCollapse" aria-expanded="false" aria-controls="navbar-menuCollapse" aria-label="Toggle Website Navigation Menu"><i class="fas fa-bars"></i></button>
+            </div>
+            <!-- ACCOUNT LINKS -->
+            <ul id="nav-accountLinks" class="nav navbar-nav">
+                <li id="nav-loginBtn">
+                    <a href="/login" class="btn navbar-btn btn-transparent">Log In</a>
+                </li>
+                <li id="nav-signUpBtn">
+                    <a href="/checkout/freetrial/" class="btn navbar-btn btn-green">Free Trial</a>
+                </li>
+                <li id="nav-userProfile" class="dropdown">
+                    <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-fw fa-user-circle"></i><span id="nav-userID">Welcome</span><i class="far fa-fw fa-angle-down"></i>
+                    </a>
+                    <ul id="nav-userMenu" class="dropdown-menu">
+                        <li class="dashboard"><a href="/panels"><i class="far fa-fw fa-tachometer-alt-fast"></i>&nbsp;&nbsp;Your Dashboard</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/panels#chartlists"><i class="fas fa-fw fa-user-chart"></i>&nbsp;&nbsp;Your ChartLists</a></li>
+                        <li><a href="/def/servlet/ScanUI"><i class="fal fa-fw fa-sliders-h"></i>&nbsp;&nbsp;Your Scans</a></li>
+                        <li><a href="/h-mem/useralertsummary.html"><i class="far fa-fw fa-bell"></i>&nbsp;&nbsp;Your Alerts</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/h-mem/notificationhistory.html"><i class="fas fa-fw fa-engine-warning"></i>&nbsp;&nbsp;Notifications</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/youracct"><i class="fas fa-fw fa-cogs"></i>&nbsp;&nbsp;Your Account</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="//help.stockcharts.com"><i class="fas fa-fw fa-question-circle"></i>&nbsp;&nbsp;Support Center</a></li>
+                        <li><a href="/support/techsupport.html"><i class="far fa-fw fa-envelope"></i>&nbsp;&nbsp;Contact Us</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/logout"><i class="fas fa-fw fa-sign-out-alt"></i>&nbsp;&nbsp;Log Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- CHART SEARCH -->
+            <form id="nav-chartSearch" class="input-group" role="search" onsubmit="return chartSearch('nav-chartSearch');">
+                <div class="input-group-btn dropdown">
+                    <button type="button" id="nav-chartSearch-btn" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SharpChart <i class="far fa-angle-down"></i></button>
+                    <input type="hidden" id="nav-chartSearch-type" name="searchoptions" value="sharpChart" />
+                    <ul class="dropdown-menu" id="nav-chartSearch-menu">
+                        <li>
+                            <a href="#" data-val="symSum">
+                                <span class="item-label"><i class="far fa-fw fa-file-invoice-dollar"></i>Symbol Summary</span>
+                                <span class="item-star"><i class="far fa-star"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-val="sharpChart">
+                                <span class="item-label"><i class="icon icon-scc-pos-sq-sharp fa-fw"></i>SharpChart</span>
+                                <span class="item-star"><i class="far fa-star"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-val="acp">
+                                <span class="item-label"><i class="icon icon-scc-pos-sq-acp fa-fw"></i>ACP</span>
+                                <span class="item-star"><i class="far fa-star"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-val="pnf">
+                                <span class="item-label"><i class="icon icon-scc-pos-sq-pnf fa-fw"></i>Point &amp; Figure</span>
+                                <span class="item-star"><i class="far fa-star"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-val="gallery">
+                                <span class="item-label"><i class="icon icon-scc-pos-sq-gallery fa-fw"></i>GalleryView</span>
+                                <span class="item-star"><i class="far fa-star"></i></span>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#" data-val="seasonality"><i class="icon icon-scc-pos-sq-season fa-fw"></i>Seasonality</a></li>
+                        <li><a href="#" data-val="options"><i class="fas fa-fw fa-game-board-alt"></i>Options</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#" data-val="perf"><i class="icon icon-scc-pos-sq-perfchart fa-fw"></i>PerfChart</a></li>
+                        <li><a href="#" data-val="candleGlance"><i class="icon icon-scc-pos-sq-candle fa-fw"></i>CandleGlance</a></li>
+                        <li><a href="#" data-val="rrg"><i class="icon icon-scc-pos-sq-rrg fa-fw"></i>RRG</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#" data-val="symSearch"><i class="fas fa-fw fa-search-plus"></i>Symbol Lookup</a></li>
+                    </ul>
+                </div>
+                <input type="text" id="nav-chartSearch-input" class="form-control" placeholder="Enter Symbol or Name" aria-label="Search for a Security" />
+                <span class="input-group-btn">
+                    <button id="nav-chartSearch-submit" class="btn btn-default btn-submit" type="submit">Go</button>
+                </span>
+            </form>
+        </div><!-- end of NAV UPPER -->
+        <!-- NAV LOWER -->
+        <div id="nav-lower">
+            <!-- MENU COLLAPSE -->
+            <div id="navbar-menuCollapse" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav sitelinks">
+                    <li><a href="/freecharts/">Charts &amp; Tools</a></li>
+                    <li><a href="/articles/">Articles</a></li>
+                    <li><a href="/tv/">StockCharts TV</a></li>
+                    <li><a href="//chartschool.stockcharts.com">ChartSchool</a></li>
+                    <li class="dashboard"><a href="/panels"><span class="hide-sm">Your&nbsp;</span>Dashboard</a></li>
+                </ul>
+                <ul class="nav navbar-nav sitelinks pull-right">
+                    <li><a href="//help.stockcharts.com">Help</a></li>
+                </ul>
+                <div id="nav-siteSearch-wrap">
+                    <form id="nav-siteSearch" role="search" action="/search/">
+                        <input type="search" id="nav-siteSearch-input" placeholder="Search StockCharts" name="q" required aria-label="Search StockCharts" />
+                        <input type="submit" id="nav-siteSearch-submit" value="Go" />
+                        <span id="nav-siteSearch-icon"></span>
+                    </form>
+                </div>
+            </div><!-- end of MENU COLLAPSE -->
+        </div><!-- end of NAV LOWER -->
+    </div>
+</nav><!-- end of SCC NAVBAR -->
+
+        <div class="gh-viewport-container">
+            <div class="gh-viewport">
+
+                
+<main class="gh-main-content">
+        <article class="gh-article post tag-hash-author-bruce-fraser">
+
+            <header class="gh-header">
+
+                <h1 class="gh-article-title">How Now Charles Dow?</h1>
+
+                <time class="gh-article-date" datetime="2016-06-03T14:52">June 03, 2016 at 02:52 PM</time>
+
+                <div class="gh-article-meta-container">
+                        <a href="/author/bruce-fraser/">
+                            <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/profile-img-bf.png" alt="Bruce Fraser" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>Bruce Fraser<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">Industry-leading &quot;Wyckoffian&quot; </div>
+
+    </div>
+</section>
+                        </a>
+                </div>
+
+            </header>
+
+            <section class="gh-content">
+                <figure class="kg-card kg-image-card"><img src="https://d.stockcharts.com/img/articles/2016/06/14649769165221746825581.jpg" class="kg-image" alt loading="lazy"></figure><p>My first teaching assignment at Golden Gate University was the survey course, FI352 ‘Technical Analysis of Securities’. This course is devoted to the study of the major technical analysis methods. It is a wonderful course for becoming familiar with the vast body of knowledge that is technical analysis. When I began teaching FI352 it was the only graduate course available on the subject at an accredited university. Today, in addition to FI352, there is an entire graduate degree program in technical analysis offered at GGU, and it remains the only program of its kind anywhere.</p><p>I would always open the FI352 semester with a lecture on Charles H. Dow and ‘Dow’s Theory’. His theory, in many regards, is the birth of modern day technical analysis. Chart analysis was in use before his arrival on Wall Street. But it was his innovations, in my opinion, that revolutionized the study of markets and influenced so many of the tools we use today and the common understanding we have about how markets work.</p><hr><p>In the early 1880’s, Mr. Dow and Edward Jones began publishing an afternoon two-page summary of the day’s financial news. Included was an 11 stock index mostly composed of Rail stocks.  This publication was delivered throughout New York City and became indispensable to those working in finance at the time. At the end of the decade this publication became the ‘Wall Street Journal’. A few years later Mr. Dow created the Dow Jones Industrial stock index which was composed of 12 industrial stocks. About a year later he added a Dow Jones Transportation stock index. These two indexes became very popular and were watched very closely.</p><p>Mr. Dow was of the strong belief that stocks tended to move upward and downward together. Like a flock of birds, most stocks moved in lockstep with the overall direction of the market indexes he published. He observed three degrees of movement in the markets; a major move lasting years, an intermediate move lasting months, and minor swings lasting weeks. Mr. Dow noted that the major trend of stock prices tracked the ebb and flow of business conditions and broad economic activity. His industrial and transportation stock indexes were very useful in indicating the health and direction of the economy.</p><p>Another very important observation was that stocks tended to ‘discount’ future economic activity. As we have discussed in earlier blogs, stocks (and therefore the stock indexes) tend to change their trends months prior to the turn in broad economic activity (<a href="https://stockcharts.com/articles/wyckoff/2015/05/getting-some-basic-wyckoff-terminology-under-our-belts.html?ref=articles.stockcharts.com">click here for a link to an earlier blog on this subject</a>). The stock market is a very reliable leading indicator of changes in economic activity.</p><p>These theories were published by Mr. Dow on the editorial page over a period of years. The collection of these editorials became known as ‘Dow’s Theory’ or ‘The Dow Theory’.</p><p>Central to the Theory was the definition of a trend. A Bull Market uptrend was composed of a series of higher high prices and higher low prices in the Dow Jones Indexes. Intermediate swings of weeks to months in duration would trace out these trends to ever higher prices that make up a big Bull Market. Bear Markets were a series of lower high index prices followed by lower low prices.  The broad conclusion to be made was that business conditions would follow the lead of these big upward and downward stock index trends.</p><p>After Mr. Dow’s death, numerous outstanding market analysts carried the baton of The Dow Theory and added their own ideas to it. As Wyckoffians we acknowledge this robust theory for all it has done for the development of the study of markets. The Dow Theory advanced the concepts of indexes, industry groups, chart analysis, and on and on.</p><p>From the study of index charts and stock charts Mr. Wyckoff developed his own methodology. He was familiar with the theory and paid close attention to the published indexes.</p><p>As a ‘Tip of the Hat’ to Mr. Dow, we will compare the Dow Jones Industrial Average and the Dow Jones Transportation Average and add in some Wyckoff Analysis. The analysis and comparison of the Industrial Average and the Transportation Average can be as useful today as it was a century ago.</p><figure class="kg-card kg-image-card"><a href="https://stockcharts.com/sc3/ui?s=%24TRAN&p=W&b=5&g=0&i=p40966400845&a=461636153&r=1464976334612&ref=articles.stockcharts.com"><img src="https://d.stockcharts.com/img/articles/2016/06/1464976341386928016620.png" class="kg-image" alt loading="lazy"></a></figure><p>(click on chart for active version)</p><p>A key tenet of the Dow Theory is that when both the Transportation and Industrial Averages trend together, a bull or bear market is confirmed. From 2013-15 we see robust uptrends in both averages and this would be considered a bull market. In 2015 the Transportation Average enters a downtrend while we might describe the Industrial Average to be in a giant trading range. The theory states that the Industrials reflect the health of manufacturing and the Transports indicate that the goods manufactured are (or are not) being shipped to market. If these two gauges fall out of synch with each other then the economy is not humming along. There is stress developing for the broad business environment. A decline in both averages portends a slow down or recession in business conditions.</p><p>On the weekly charts above, we can see a Selling Climax in January of 2016 in the Transportation Average and this was followed by a robust rally. But the rally, so far, has been to a lower high. It appears that the Transports are still lagging the Industrials but the Selling Climax is suggesting the downtrend may be over.</p><figure class="kg-card kg-image-card"><a href="https://stockcharts.com/sc3/ui?s=%24TRAN&p=D&b=5&g=0&i=p86448722526&a=461325786&r=1464976470436&ref=articles.stockcharts.com"><img src="https://d.stockcharts.com/img/articles/2016/06/1464976475881932993496.png" class="kg-image" alt loading="lazy"></a></figure><p>(click on chart for active version)</p><p>Zooming in to the daily chart the $TRAN culminates the downtrend with a SCLX (mid-January) and then acts distinctly stronger than the $INDU by beginning an uptrend early. The robust uptrend ends with a BCLX and a throwover of the Overbought line. Support and Resistance lines can be drawn after the Automatic Reaction (AR). Classic signs of Distribution are emerging. We note the decline into a Sign of Weakness (SOW) on expanding volume. The rally that follows is of poor quality as the volume diminishes on the rise from 7500 to 7800. After a SOW we look for a Last Point of Supply (LPSY). Weakness typically follows an LPSY. One potential scenario is that $TRAN declines, but stays above the February low. This could indicate a bigger base being formed (with a larger PnF count) for a more sustainable bull run later on.</p><p>If the current trading range in the $TRAN is a Stepping Stone Reaccumulation, we would want to see the volume become dull and quiet on the pullbacks while expanding on the rallies. The evidence does not yet suggest this scenario.</p><figure class="kg-card kg-image-card"><img src="https://d.stockcharts.com/img/articles/2016/06/14649773504751660313883.jpg" class="kg-image" alt loading="lazy"></figure><p>The minimum objective of the Distribution count is an exact hit. Also this is confirmed by a Stepping Stone Redistribution count to the same target. Note that a large SCLX develops right into these downside price objectives which helps to confirm that the PnF price targets are working. In 2015 there appears to have been a bear market in the Dow Jones Transports while the Dow Jones Industrials muddled along in a large trading range. Fulfilling the PnF downside projections combined with a ‘Change of Character’ in the Transports is an encouraging sign for the bulls. While the $INDU is near all-time high prices, the $TRAN is not. Both indexes, in gear together and in strong uptrends would be a good sign for the stock market and broad business conditions.</p><p>Mr. Wyckoff was influenced by the development of the Dow Jones Indexes and Charles Dow’s Theory. He added to this body of technical analysis knowledge by developing his own buying and selling tests that built on these principles as well as other valuable indicators. In future posts we will explore these contributions by Mr. Wyckoff.</p><p>All the Best,</p><p>Bruce</p><p>(Although not in use today, the phrase "how now" is a greeting, short for "how say you now", and can be found in archaic literature, such as the plays of William Shakespeare. -Wikipedia)</p>
+            </section>
+
+            <section class="btn-row">
+            </section>
+
+                <section class="gh-article-author-bio-info">
+                    <img class="gh-article-author-bio-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/profile-img-bf.png" alt="Bruce Fraser" />
+                    <h6 class="gh-article-author-bio-title">About The Author:</h6>
+                    <p class="gh-article-author-bio">
+
+                        Bruce is an industry-leading &quot;Wyckoffian&quot; who began teaching graduate-level courses at Golden Gate University in 1987. He has developed curriculum for and taught many courses in GGU’s Technical Market Analysis Graduate Certificate Program.
+
+                            <a href="https://stockcharts.com/articles/bios/bruce-fraser.html" rel="noopener noreferrer">
+                                Learn&nbsp;More&nbsp;<i class="fas fa-fw fa-arrow-circle-right"></i>
+                            </a>
+
+                    </p>
+                </section>
+
+            <section class="gh-previous-and-next-article-buttons">
+                <span class="gh-previous-and-next-article-button-container">
+                        <a href="/article/articles-journal-2016-06-precisely-how-i-bought-the-4-fang-stocks-before-their-run-up/">
+                            <i class="fas fa-fw fa-arrow-circle-left"></i>
+                            &nbsp;Previous<span class="hide-xs"> Article</span>
+                        </a>
+                </span>
+                <span class="gh-previous-and-next-article-button-container">
+                        <a href="/article/articles-chartwatchers-2016-06-short-term-indicators-bearish-but-intermediate-term-indicators-bullish/">
+                            Next<span class="hide-xs"> Article</span>&nbsp;
+                            <i class="fas fa-fw fa-arrow-circle-right"></i>
+                        </a>
+                </span>
+            </section>
+
+        </article>
+
+    
+        <section class="gh-featured">
+            <h2 class="gh-featured-title">Read More</h2>
+            <div class="gh-featured-feed">
+                    <a href="/article/week-ahead-nifty-set-for-positive-start-these-levels-define-broader-range-for-markets/" class="gh-card post tag-market-analysis tag-sectors tag-chart-patterns">
+    <article class="gh-card-info">
+
+        <h2 class="gh-card-members-only-label">MEMBERS ONLY</h2>
+
+        <div class="time-ago-timestamp time-ago-timestamp-top-right">
+            <span data-timestamp="1777766008000"></span>
+        </div>
+
+                <figure class="gh-article-image">
+        <img
+            src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2026/05/quote-plus-chart.jpeg"
+            alt="Stock quote board with chart overlay"
+            
+        />
+    </figure>
+
+        <h3 class="gh-card-title">Week Ahead: NIFTY Set for Positive Start, But These Levels Define a Broader Range</h3>
+
+        <div class="gh-article-meta-container">
+                <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/07/Milan_500.webp" alt="Milan Vaishnav" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>Milan Vaishnav<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">Founder and Technical Analyst,  EquityResearch.asia and ChartWizard.ae</div>
+
+    </div>
+</section>
+        </div>
+
+        <div class="time-ago-timestamp time-ago-timestamp-bottom-left">
+            <span data-timestamp="1777766008000"></span>
+        </div>
+
+            <p class="gh-card-excerpt">
+                Milan Vaishnav examines the state of the Indian markets and what the next week holds, presenting his advice on how to approach the market and what the charts are saying....
+                &nbsp;
+                <span class="gh-card-excerpt-read-more">READ&nbsp;MORE&nbsp;<i class="fas fa-fw fa-chevron-right"></i></span>
+            </p>
+
+    </article>
+</a>
+                    <a href="/article/before-you-sell-in-may-check-the-seasonality-chart/" class="gh-card post tag-hash-chartwatchers-newsletter tag-hash-hidden-article no-image">
+    <article class="gh-card-info">
+
+        <h2 class="gh-card-members-only-label">MEMBERS ONLY</h2>
+
+        <div class="time-ago-timestamp time-ago-timestamp-top-right">
+            <span data-timestamp="1777685831000"></span>
+        </div>
+
+
+        <h3 class="gh-card-title">Before You Sell in May, Check the Seasonality Chart</h3>
+
+        <div class="gh-article-meta-container">
+                <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/03/jayanthi-gopalakrishnan-p-500.jpg" alt="Jayanthi Gopalakrishnan" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>Jayanthi Gopalakrishnan<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">Director of Site Content, StockCharts.com</div>
+
+    </div>
+</section>
+        </div>
+
+        <div class="time-ago-timestamp time-ago-timestamp-bottom-left">
+            <span data-timestamp="1777685831000"></span>
+        </div>
+
+                <p class="gh-card-excerpt">
+                    It was a strong week for the stock market with the Nasdaq Composite ($COMPQ) closing above 25,000 for the first time. The S&amp;P 500 ($SPX) and S&amp;P 600 Small Cap Index ($SML) also notched record closing highs.
+
+A lot of that strength came from big...
+                    &nbsp;
+                    <span class="gh-card-excerpt-read-more">READ&nbsp;MORE&nbsp;<i class="fas fa-fw fa-chevron-right"></i></span>
+                </p>
+
+    </article>
+</a>
+                    <a href="/article/earnings-are-driving-this-market-heres-where-to-look/" class="gh-card post tag-hash-author-mary-ellen-mcgonagle tag-hash-video tag-sectors tag-indicators tag-chart-patterns tag-etfs">
+    <article class="gh-card-info">
+
+        <h2 class="gh-card-members-only-label">MEMBERS ONLY</h2>
+
+        <div class="time-ago-timestamp time-ago-timestamp-top-right">
+            <span data-timestamp="1777684447000"></span>
+        </div>
+
+                <figure class="gh-article-image">
+        <img
+            src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2026/05/MEM-Thumbnail_2--1-.jpg"
+            alt="Earnings Are Driving This Market, Here’s Where to Look"
+            
+        />
+    </figure>
+
+        <h3 class="gh-card-title">Earnings Are Driving This Market, Here’s Where to Look</h3>
+
+        <div class="gh-article-meta-container">
+                <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/07/MEM-square.webp" alt="Mary Ellen McGonagle" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>Mary Ellen McGonagle<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">President, MEM Investment Research</div>
+
+    </div>
+</section>
+        </div>
+
+        <div class="time-ago-timestamp time-ago-timestamp-bottom-left">
+            <span data-timestamp="1777684447000"></span>
+        </div>
+
+            <p class="gh-card-excerpt">
+                Mary Ellen McGonagle illustrates how earnings are driving this market, where leadership is emerging, and what’s working right now....
+                &nbsp;
+                <span class="gh-card-excerpt-read-more">READ&nbsp;MORE&nbsp;<i class="fas fa-fw fa-chevron-right"></i></span>
+            </p>
+
+    </article>
+</a>
+            </div>
+        </section>
+
+    
+        <section class="gh-featured">
+            <h2 class="gh-featured-title">Featured Articles</h2>
+            <div class="gh-featured-feed">
+                    <a href="/article/gap-patterns-in-focus-what-googl-aapl-sp500-are-telling-us/" class="gh-card post tag-market-analysis tag-chart-patterns tag-equities tag-hash-author-david-keller tag-hash-priority-article featured">
+    <article class="gh-card-info">
+
+        <h2 class="gh-card-members-only-label">MEMBERS ONLY</h2>
+
+        <div class="time-ago-timestamp time-ago-timestamp-top-right">
+            <span data-timestamp="1777682956000"></span>
+        </div>
+
+                <figure class="gh-article-image">
+        <img
+            src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2026/05/financial-analysis.jpeg"
+            alt="Person focusing on document with magnifying glass"
+            
+        />
+    </figure>
+
+        <h3 class="gh-card-title">Gap Patterns in Focus: What GOOGL, AAPL, and the S&amp;P 500 Are Telling Us</h3>
+
+        <div class="gh-article-meta-container">
+                <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/profile-img-dk.webp" alt="David Keller" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>David Keller<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">President and Chief Strategist, Sierra Alpha Research</div>
+
+    </div>
+</section>
+        </div>
+
+        <div class="time-ago-timestamp time-ago-timestamp-bottom-left">
+            <span data-timestamp="1777682956000"></span>
+        </div>
+
+            <p class="gh-card-excerpt">
+                The S&amp;P 500 and key stocks gapped to new highs, but follow-through will determine the trend. Dave Keller, CMT, explains “gap and run” versus “gap and fail” patterns, using recent moves in Oracle, Alphabet, and Apple to assess whether bullish momentum can continue....
+                &nbsp;
+                <span class="gh-card-excerpt-read-more">READ&nbsp;MORE&nbsp;<i class="fas fa-fw fa-chevron-right"></i></span>
+            </p>
+
+    </article>
+</a>
+                    <a href="/article/how-to-use-ppo-for-trend-and-aroon-for-post-correction-breakouts/" class="gh-card post tag-hash-author-arthur-hill tag-indicators tag-market-analysis tag-chart-patterns tag-hash-priority-article featured">
+    <article class="gh-card-info">
+
+        <h2 class="gh-card-members-only-label">MEMBERS ONLY</h2>
+
+        <div class="time-ago-timestamp time-ago-timestamp-top-right">
+            <span data-timestamp="1777673003000"></span>
+        </div>
+
+                <figure class="gh-article-image">
+        <img
+            src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2026/05/lady-watching-charts.jpeg"
+            alt="Young lady drinking coffee in red cup while watching stock charts on lapto"
+            
+        />
+    </figure>
+
+        <h3 class="gh-card-title">How to Use PPO for Trend and Aroon for Post-Correction Breakouts</h3>
+
+        <div class="gh-article-meta-container">
+                <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/hill-arthur-headshot2.jpg" alt="Arthur Hill" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>Arthur Hill<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">Chief Technical Strategist, TrendInvestorPro.com</div>
+
+    </div>
+</section>
+        </div>
+
+        <div class="time-ago-timestamp time-ago-timestamp-bottom-left">
+            <span data-timestamp="1777673003000"></span>
+        </div>
+
+            <p class="gh-card-excerpt">
+                Arthur Hill presents a simple strategy for identifying long-term uptrends and short-term breakouts after corrections, using two important indicators....
+                &nbsp;
+                <span class="gh-card-excerpt-read-more">READ&nbsp;MORE&nbsp;<i class="fas fa-fw fa-chevron-right"></i></span>
+            </p>
+
+    </article>
+</a>
+                    <a href="/article/what-is-really-driving-this-stock-market-rally-start-with-these-charts/" class="gh-card post tag-market-analysis tag-volatility tag-indicators tag-precious-metals tag-hash-priority-article featured">
+    <article class="gh-card-info">
+
+        <h2 class="gh-card-members-only-label">MEMBERS ONLY</h2>
+
+        <div class="time-ago-timestamp time-ago-timestamp-top-right">
+            <span data-timestamp="1777598624000"></span>
+        </div>
+
+                <figure class="gh-article-image">
+        <img
+            src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2026/05/Investor-watching-screen.jpeg"
+            alt="What’s Really Driving this Stock Market Rally? Start With These Charts"
+            
+        />
+    </figure>
+
+        <h3 class="gh-card-title">What’s Really Driving this Stock Market Rally? Start With These Charts</h3>
+
+        <div class="gh-article-meta-container">
+                <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/03/jayanthi-gopalakrishnan-p-500.jpg" alt="Jayanthi Gopalakrishnan" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>Jayanthi Gopalakrishnan<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">Director of Site Content, StockCharts.com</div>
+
+    </div>
+</section>
+        </div>
+
+        <div class="time-ago-timestamp time-ago-timestamp-bottom-left">
+            <span data-timestamp="1777598624000"></span>
+        </div>
+
+            <p class="gh-card-excerpt">
+                The S&amp;P 500, Nasdaq, and the S&amp;P 600 closed at new highs despite inflation concerns and geopolitical tensions in the Middle East. What&#x27;s driving this rally? Find out here....
+                &nbsp;
+                <span class="gh-card-excerpt-read-more">READ&nbsp;MORE&nbsp;<i class="fas fa-fw fa-chevron-right"></i></span>
+            </p>
+
+    </article>
+</a>
+            </div>
+        </section>
+</main>
+
+<aside class="gh-sidebar">
+    <section class="gh-sidebar-section gh-sidebar-button-container">
+        <a href="https://articles.stockcharts.com/" class="btn btn-primary btn-block mb-3" style="width:100%;margin-bottom:12px;">
+            All Articles
+        </a>
+        <a href="https://stockcharts.com/rss-notifier?cmd=add-follower&authorId=bruce-fraser" class="btn btn-success btn-block mb-3" style="width:100%;margin-bottom:12px;">
+            Follow Bruce Fraser
+        </a>
+    </section>
+
+    <section class="gh-sidebar-section">
+    <form class="form-group" action="https://stockcharts.com/find/" style="margin-bottom:0px;">
+        <div class="input-group input-group-sm">
+            <input
+                type="text"
+                name="q"
+                class="form-control"
+                placeholder="Search"
+                autocomplete="off"
+                autocorrect="off"
+                autocapitalize="off"
+                spellcheck="false"
+            />
+            <input type="hidden" name="section" value="articles" />
+            <span class="input-group-btn">
+                <button class="btn btn-default btn-white transition" type="submit">Go</button>
+            </span>
+        </div>
+    </form>
+</section>
+
+            <section class="gh-sidebar-section">
+            <h4 class="gh-sidebar-section-title">Experts</h4>
+
+            <hr class="gh-sidebar-section-divider gh-sidebar-experts-section-divider" />
+
+                <a href="/author/arthur-hill/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/hill-arthur-headshot2.jpg" alt="Arthur Hill" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Arthur Hill</span>
+                </a>
+                <a href="/author/bruce-fraser/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/profile-img-bf.png" alt="Bruce Fraser" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Bruce Fraser</span>
+                </a>
+                <a href="/author/carl-swenlin/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/profile-img-cs.jpg" alt="Carl Swenlin" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Carl Swenlin</span>
+                </a>
+                <a href="/author/david-keller/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/profile-img-dk.webp" alt="David Keller" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">David Keller</span>
+                </a>
+                <a href="/author/frank-cappelleri/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/profile-img-fc.webp" alt="Frank Cappelleri" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Frank Cappelleri</span>
+                </a>
+                <a href="/author/grayson-roze/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/grayson-roze_LG-1.jpg" alt="Grayson Roze" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Grayson Roze</span>
+                </a>
+                <a href="/author/jayanthi-gopalakrishnan/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/03/jayanthi-gopalakrishnan-p-500.jpg" alt="Jayanthi Gopalakrishnan" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Jayanthi Gopalakrishnan</span>
+                </a>
+                <a href="/author/joe-rabil/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/05/joe-rabil.jpg" alt="Joe Rabil" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Joe Rabil</span>
+                </a>
+                <a href="/author/julius-de-kempenaer/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/profile-img-jdk.jpg" alt="Julius de Kempenaer" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Julius de Kempenaer</span>
+                </a>
+                <a href="/author/karl-montevirgen/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/07/7b58ff17867fd51ca7d0a8ab1e384662.jpeg" alt="Karl Montevirgen" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Karl Montevirgen</span>
+                </a>
+                <a href="/author/larry-williams/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/07/larrywilliams-500.webp" alt="Larry Williams" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Larry Williams</span>
+                </a>
+                <a href="/author/martin-pring/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/05/martin-pring.jpg" alt="Martin Pring" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Martin Pring</span>
+                </a>
+                <a href="/author/mary-ellen-mcgonagle/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/07/MEM-square.webp" alt="Mary Ellen McGonagle" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Mary Ellen McGonagle</span>
+                </a>
+                <a href="/author/mike-zaccardi/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/08/profile-img-mz.webp" alt="Mike Zaccardi" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Mike Zaccardi</span>
+                </a>
+                <a href="/author/milan-vaishnav/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/07/Milan_500.webp" alt="Milan Vaishnav" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Milan Vaishnav</span>
+                </a>
+                <a href="/author/tom-bowley/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/profile-img-tb.webp" alt="Tom Bowley" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Tom Bowley</span>
+                </a>
+                <a href="/author/tony-zhang/" class="gh-sidebar-expert">
+                    <img src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/05/tony-headshot.webp" alt="Tony Zhang" class="gh-sidebar-expert-image" />
+                    <span class="gh-sidebar-expert-name">Tony Zhang</span>
+                </a>
+        </section>
+
+                <section class="gh-sidebar-section">
+
+                <h4 class="gh-sidebar-section-title">Topics</h4>
+
+                <hr class="gh-sidebar-section-divider" />
+
+                <div class="gh-topics-buttons btn-row">
+                            <a href="/tag/bonds/" class="btn btn-xs btn-blue">Bonds</a>
+                            <a href="/tag/chart-patterns/" class="btn btn-xs btn-blue">Chart Patterns</a>
+                            <a href="/tag/china-stocks/" class="btn btn-xs btn-blue">China stocks</a>
+                            <a href="/tag/commodities/" class="btn btn-xs btn-blue">Commodities</a>
+                            <a href="/tag/crypto/" class="btn btn-xs btn-blue">Crypto</a>
+                            <a href="/tag/earnings/" class="btn btn-xs btn-blue">Earnings</a>
+                            <a href="/tag/equities/" class="btn btn-xs btn-blue">Equities</a>
+                            <a href="/tag/etfs/" class="btn btn-xs btn-blue">ETFs</a>
+                            <a href="/tag/fomc/" class="btn btn-xs btn-blue">FOMC</a>
+                            <a href="/tag/forex/" class="btn btn-xs btn-blue">Forex</a>
+                            <a href="/tag/how-to/" class="btn btn-xs btn-blue">How To</a>
+                            <a href="/tag/indicators/" class="btn btn-xs btn-blue">Indicators</a>
+                            <a href="/tag/interest-rates-2/" class="btn btn-xs btn-blue">Interest Rates</a>
+                            <a href="/tag/market-analysis/" class="btn btn-xs btn-blue">Market Analysis</a>
+                            <a href="/tag/members-only/" class="btn btn-xs btn-blue">Members Only</a>
+                            <a href="/tag/options/" class="btn btn-xs btn-blue">Options</a>
+                            <a href="/tag/precious-metals/" class="btn btn-xs btn-blue">Precious Metals</a>
+                            <a href="/tag/sectors/" class="btn btn-xs btn-blue">Sectors</a>
+                            <a href="/tag/tips-tricks/" class="btn btn-xs btn-blue">Tips &amp; Tricks</a>
+                            <a href="/tag/tools/" class="btn btn-xs btn-blue">Tools</a>
+                            <a href="/tag/trading-strategies/" class="btn btn-xs btn-blue">Trading Strategies</a>
+                            <a href="/tag/volatility/" class="btn btn-xs btn-blue">Volatility</a>
+                </div>
+
+            </section>
+
+    
+        <section class="gh-sidebar-section">
+            <h4 class="gh-sidebar-section-title">Featured Articles</h4>
+
+            <hr class="gh-sidebar-section-divider" />
+
+            <div class="gh-sidebar-featured-posts">
+                    <a href="/article/gap-patterns-in-focus-what-googl-aapl-sp500-are-telling-us/" class="gh-card post featured">
+    <article class="gh-card-info">
+
+        <h2 class="gh-card-members-only-label">MEMBERS ONLY</h2>
+
+        <div class="time-ago-timestamp time-ago-timestamp-top-right">
+            <span data-timestamp="1777682956000"></span>
+        </div>
+
+                <figure class="gh-article-image">
+        <img
+            src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2026/05/financial-analysis.jpeg"
+            alt="Person focusing on document with magnifying glass"
+            
+        />
+    </figure>
+
+        <h3 class="gh-card-title">Gap Patterns in Focus: What GOOGL, AAPL, and the S&amp;P 500 Are Telling Us</h3>
+
+        <div class="gh-article-meta-container">
+                <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/profile-img-dk.webp" alt="David Keller" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>David Keller<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">President and Chief Strategist, Sierra Alpha Research</div>
+
+    </div>
+</section>
+        </div>
+
+        <div class="time-ago-timestamp time-ago-timestamp-bottom-left">
+            <span data-timestamp="1777682956000"></span>
+        </div>
+
+            <p class="gh-card-excerpt">
+                The S&amp;P 500 and key stocks gapped to new highs, but follow-through will determine the trend. Dave Keller, CMT, explains “gap and run” versus “gap and fail” patterns, using recent moves in Oracle, Alphabet, and Apple to assess whether bullish momentum can continue....
+                &nbsp;
+                <span class="gh-card-excerpt-read-more">READ&nbsp;MORE&nbsp;<i class="fas fa-fw fa-chevron-right"></i></span>
+            </p>
+
+    </article>
+</a>
+
+                        <hr class="gh-sidebar-featured-posts-divider" />
+                    <a href="/article/how-to-use-ppo-for-trend-and-aroon-for-post-correction-breakouts/" class="gh-card post featured">
+    <article class="gh-card-info">
+
+        <h2 class="gh-card-members-only-label">MEMBERS ONLY</h2>
+
+        <div class="time-ago-timestamp time-ago-timestamp-top-right">
+            <span data-timestamp="1777673003000"></span>
+        </div>
+
+                <figure class="gh-article-image">
+        <img
+            src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2026/05/lady-watching-charts.jpeg"
+            alt="Young lady drinking coffee in red cup while watching stock charts on lapto"
+            
+        />
+    </figure>
+
+        <h3 class="gh-card-title">How to Use PPO for Trend and Aroon for Post-Correction Breakouts</h3>
+
+        <div class="gh-article-meta-container">
+                <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/06/hill-arthur-headshot2.jpg" alt="Arthur Hill" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>Arthur Hill<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">Chief Technical Strategist, TrendInvestorPro.com</div>
+
+    </div>
+</section>
+        </div>
+
+        <div class="time-ago-timestamp time-ago-timestamp-bottom-left">
+            <span data-timestamp="1777673003000"></span>
+        </div>
+
+            <p class="gh-card-excerpt">
+                Arthur Hill presents a simple strategy for identifying long-term uptrends and short-term breakouts after corrections, using two important indicators....
+                &nbsp;
+                <span class="gh-card-excerpt-read-more">READ&nbsp;MORE&nbsp;<i class="fas fa-fw fa-chevron-right"></i></span>
+            </p>
+
+    </article>
+</a>
+
+                        <hr class="gh-sidebar-featured-posts-divider" />
+                    <a href="/article/what-is-really-driving-this-stock-market-rally-start-with-these-charts/" class="gh-card post featured">
+    <article class="gh-card-info">
+
+        <h2 class="gh-card-members-only-label">MEMBERS ONLY</h2>
+
+        <div class="time-ago-timestamp time-ago-timestamp-top-right">
+            <span data-timestamp="1777598624000"></span>
+        </div>
+
+                <figure class="gh-article-image">
+        <img
+            src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2026/05/Investor-watching-screen.jpeg"
+            alt="What’s Really Driving this Stock Market Rally? Start With These Charts"
+            
+        />
+    </figure>
+
+        <h3 class="gh-card-title">What’s Really Driving this Stock Market Rally? Start With These Charts</h3>
+
+        <div class="gh-article-meta-container">
+                <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/03/jayanthi-gopalakrishnan-p-500.jpg" alt="Jayanthi Gopalakrishnan" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>Jayanthi Gopalakrishnan<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">Director of Site Content, StockCharts.com</div>
+
+    </div>
+</section>
+        </div>
+
+        <div class="time-ago-timestamp time-ago-timestamp-bottom-left">
+            <span data-timestamp="1777598624000"></span>
+        </div>
+
+            <p class="gh-card-excerpt">
+                The S&amp;P 500, Nasdaq, and the S&amp;P 600 closed at new highs despite inflation concerns and geopolitical tensions in the Middle East. What&#x27;s driving this rally? Find out here....
+                &nbsp;
+                <span class="gh-card-excerpt-read-more">READ&nbsp;MORE&nbsp;<i class="fas fa-fw fa-chevron-right"></i></span>
+            </p>
+
+    </article>
+</a>
+
+            </div>
+        </section>
+
+    
+        <section class="gh-sidebar-section gh-sidebar-section-grey-background">
+            <h4 class="gh-sidebar-section-title">Premium Content</h4>
+
+            <hr class="gh-sidebar-section-divider" />
+
+            <div class="gh-sidebar-featured-posts">
+                    <a href="/article/is-it-time-to-issue-red-card-for-gold-bull-market/" class="gh-card post">
+    <article class="gh-card-info">
+
+        <h2 class="gh-card-members-only-label">MEMBERS ONLY</h2>
+
+        <div class="time-ago-timestamp time-ago-timestamp-top-right">
+            <span data-timestamp="1777332288000"></span>
+        </div>
+
+                <figure class="gh-article-image">
+        <img
+            src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2026/04/Referee-red-card.jpeg"
+            alt="Soccer referee about to issue a red card"
+            
+        />
+    </figure>
+
+        <h3 class="gh-card-title">Is It Time to Issue a Red Card for the Gold Bull Market?</h3>
+
+        <div class="gh-article-meta-container">
+                <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/05/martin-pring.jpg" alt="Martin Pring" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>Martin Pring<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">President, Pring Research</div>
+
+    </div>
+</section>
+        </div>
+
+        <div class="time-ago-timestamp time-ago-timestamp-bottom-left">
+            <span data-timestamp="1777332288000"></span>
+        </div>
+
+            <p class="gh-card-excerpt">
+                Is a primary bear market developing in gold? Martin Pring analyzes the charts of spot Gold and Silver and shows two indicators that are pointing to a possible reversal....
+                &nbsp;
+                <span class="gh-card-excerpt-read-more">READ&nbsp;MORE&nbsp;<i class="fas fa-fw fa-chevron-right"></i></span>
+            </p>
+
+    </article>
+</a>
+
+                        <hr class="gh-sidebar-featured-posts-divider" />
+                    <a href="/article/what-nirvana-template-reveals-about-gulf-etfs/" class="gh-card post">
+    <article class="gh-card-info">
+
+        <h2 class="gh-card-members-only-label">MEMBERS ONLY</h2>
+
+        <div class="time-ago-timestamp time-ago-timestamp-top-right">
+            <span data-timestamp="1776982707000"></span>
+        </div>
+
+                <figure class="gh-article-image">
+        <img
+            src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2026/04/Gulf-etf-focus.jpeg"
+            alt="Map focusing on Middle East"
+            
+        />
+    </figure>
+
+        <h3 class="gh-card-title">What the Nirvana Template Reveals About the Gulf ETFs</h3>
+
+        <div class="gh-article-meta-container">
+                <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/05/martin-pring.jpg" alt="Martin Pring" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>Martin Pring<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">President, Pring Research</div>
+
+    </div>
+</section>
+        </div>
+
+        <div class="time-ago-timestamp time-ago-timestamp-bottom-left">
+            <span data-timestamp="1776982707000"></span>
+        </div>
+
+            <p class="gh-card-excerpt">
+                Are U.S.-traded Gulf ETFs positioned to benefit from a potential cooling off in Middle East tensions? Martin Pring analyzes the charts of these ETFs and shares some surprising findings....
+                &nbsp;
+                <span class="gh-card-excerpt-read-more">READ&nbsp;MORE&nbsp;<i class="fas fa-fw fa-chevron-right"></i></span>
+            </p>
+
+    </article>
+</a>
+
+                        <hr class="gh-sidebar-featured-posts-divider" />
+                    <a href="/article/three-indicators-to-watch-in-case-stock-market-falters/" class="gh-card post">
+    <article class="gh-card-info">
+
+        <h2 class="gh-card-members-only-label">MEMBERS ONLY</h2>
+
+        <div class="time-ago-timestamp time-ago-timestamp-top-right">
+            <span data-timestamp="1776293949000"></span>
+        </div>
+
+                <figure class="gh-article-image">
+        <img
+            src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2026/04/3-stocks-to-buy.jpeg"
+            alt="hree fingers: 3 indicators to watch"
+            
+        />
+    </figure>
+
+        <h3 class="gh-card-title">Three Indicators to Watch In Case the Market Falters</h3>
+
+        <div class="gh-article-meta-container">
+                <section class="gh-article-meta">
+    <img class="gh-article-author-image" src="https://storage.ghost.io/c/74/fc/74fc7a95-ca18-4d2f-a03c-8a4c2ad57ec2/content/images/2025/05/martin-pring.jpg" alt="Martin Pring" />
+
+    <div class="gh-article-meta-data">
+
+        <div class="gh-article-author"><span class="gh-article-author-by-word">by </span>Martin Pring<span class="gh-article-author-comma">,</span></div>
+
+        <div class="gh-article-author-title">President, Pring Research</div>
+
+    </div>
+</section>
+        </div>
+
+        <div class="time-ago-timestamp time-ago-timestamp-bottom-left">
+            <span data-timestamp="1776293949000"></span>
+        </div>
+
+            <p class="gh-card-excerpt">
+                In this environment, will the stock market continue its bullish rally? Martin Pring looks at three indicators that can offer clues about whether the rally is sustainable....
+                &nbsp;
+                <span class="gh-card-excerpt-read-more">READ&nbsp;MORE&nbsp;<i class="fas fa-fw fa-chevron-right"></i></span>
+            </p>
+
+    </article>
+</a>
+
+            </div>
+        </section>
+
+    <section class="gh-sidebar-section">
+    <a class="gh-sidebar-ad-scc-in-house-link" href="https://stockcharts.com/checkout/freetrial/">
+      <!-- img.gh-sidebar-ad-scc-in-house-image element will be inserted here by JS -->
+    </a>
+</section>
+
+    <section class="gh-sidebar-section gh-sidebar-newsletter-sign-up-form">
+    <img src="https://d.stockcharts.com/img/chartwatchers/cw-logo-dark.png" alt="ChartWatchers The StockCharts Newsletter" />
+    <hr class="gh-sidebar-section-divider" />
+    <p>
+        Get expert technical commentary delivered straight to your inbox!
+        Sign up for our <em>FREE</em> weekly ChartWatchers Newsletter.
+        <a href="https://stockcharts.com/newsletter/">Learn More</a>
+    </p>
+    <div id="mc_embed_signup" class="form-group">
+        <form action="https://stockcharts.us17.list-manage.com/subscribe/post?u=3353671ea8af8c5eab80183ab&amp;id=7b214beb69" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" rel="noopener noreferrer" novalidate="">
+            <div id="mc_embed_signup_scroll">
+                <div class="mc-field-group" style="display:inline-block; vertical-align:middle; width:calc(100% - 110px); margin:0 5px 0 0;">
+                    <input type="email" value="" name="EMAIL" placeholder="Enter Your Email" class="required email form-control input-lg" id="mce-EMAIL" aria-label="Enter Your Email" />
+                    <div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div>
+                </div>
+                <div class="clear btn-row" style="display:inline-block; vertical-align:middle;">
+                    <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-green btn-rounded btn-md btn-margin-0" />
+                </div>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3353671ea8af8c5eab80183ab_7b214beb69" tabindex="-1" value="" aria-label="Sign Up" /></div>
+            </div>
+        </form>
+    </div>
+</section>
+
+    <section class="gh-sidebar-section gh-sidebar-marketplace-links-section">
+    <h4 class="gh-sidebar-section-title">Marketplace</h4>
+
+    <hr class="gh-sidebar-section-divider" />
+
+    <p>
+        Explore our full collection of exclusive plug-ins and premium add-ons, designed to instantly enhance your investing, trading and charting experience with powerful indicators, data, market insights and other technical capabilities.
+    </p>
+
+    <a href="https://stockcharts.com/marketplace/#all-addon" class="gh-sidebar-marketplace-link">
+        <i class="fa fa-arrow-circle-right"></i>
+        &nbsp;Add-Ons
+    </a>
+
+    <a href="https://stockcharts.com/marketplace/#all-plugins" class="gh-sidebar-marketplace-link">
+        <i class="fa fa-arrow-circle-right"></i>
+        &nbsp;Plug-Ins
+    </a>
+
+    <a href="https://stockcharts.com/marketplace/#all-chartpacks" class="gh-sidebar-marketplace-link">
+        <i class="fa fa-arrow-circle-right"></i>
+        &nbsp;ChartPacks
+    </a>
+
+    <div class="btn-row">
+        <a href="https://stockcharts.com/marketplace/" class="btn btn-green">
+            Explore More
+            <i class="fas fa-arrow-circle-right"></i>
+        </a>
+    </div>
+
+</section>
+
+    <section class="gh-sidebar-section">
+    <a class="gh-sidebar-ad-scc-in-house-link" href="https://stockcharts.com/checkout/freetrial/">
+      <!-- img.gh-sidebar-ad-scc-in-house-image element will be inserted here by JS -->
+    </a>
+</section>
+</aside>
+
+
+            </div>
+        </div>
+
+        <!-- SCC FOOTER -->
+<footer id="scc-footer" class="footer-blue">
+    <!-- UPPER -->
+    <div id="footer-upper">
+        <div class="container">
+            <!-- NEWSLETTER -->
+            <div id="newsletter">
+                <div class="bg-cw"></div>
+                <div class="col-lg-6 col-md-7 col-xs-12">
+                    <h4>Expert market commentary delivered right to your inbox, <span>for&nbsp;free.</span></h4>
+                    <p>Sign up for our weekly ChartWatchers&nbsp;Newsletter</p>
+                </div>
+                <div class="input-col col-lg-6 col-md-5 col-xs-12">
+                    <!-- MC SIGNUP -->
+                    <div id="mc_embed_signup" class="form-group">
+                        <form action="https://stockcharts.us17.list-manage.com/subscribe/post?u=3353671ea8af8c5eab80183ab&amp;id=7b214beb69" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" rel="noopener noreferrer" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <div class="mc-field-group" style="display:inline-block; vertical-align:middle; width:calc(100% - 110px); margin:0 5px 0 0;">
+                                    <input type="email" value="" name="EMAIL" placeholder="Enter Your Email" class="required email form-control input-lg" id="mce-EMAIL" aria-label="Enter Your Email" />
+                                </div>
+                                <div class="clear btn-row" style="display:inline-block; vertical-align:middle;">
+                                    <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-green btn-rounded btn-md btn-margin-0" />
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position:absolute; left:-5000px;" aria-hidden="true"><input type="text" name="b_3353671ea8af8c5eab80183ab_7b214beb69" tabindex="-1" value="" aria-label="Sign Up" /></div>
+                            </div>
+                        </form>
+                    </div><!-- end of MC SIGNUP -->
+                    <div class="more-link">
+                        <a href="https://stockcharts.com/newsletter/">Learn&nbsp;More&nbsp;&nbsp;<i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end of UPPER -->
+    <!-- LOWER -->
+    <div id="footer-lower">
+        <div class="container">
+            <!-- SITELINKS -->
+            <div id="sitelinks" class="clearfix">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h4>On&nbsp;StockCharts</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://stockcharts.com/freecharts/">Charts &amp; Tools</a></li>
+                        <li><a href="https://stockcharts.com/articles/">Articles</a></li>
+                        <li><a href="https://stockcharts.com/tv/">StockCharts TV</a></li>
+                        <li><a href="https://chartschool.stockcharts.com">ChartSchool</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h4>Members</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://stockcharts.com/panels">Your Dashboard</a></li>
+                        <li><a href="https://stockcharts.com/panels#chartlists">Your ChartLists</a></li>
+                        <li><a href="https://stockcharts.com/def/servlet/ScanUI">Advanced Scans</a></li>
+                        <li><a href="https://stockcharts.com/h-mem/useralertsummary.html">Technical Alerts</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h4>Help</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://help.stockcharts.com">Support Center</a></li>
+                        <li><a href="https://help.stockcharts.com/learning-more/frequently-asked-questions">FAQs</a></li>
+                        <li><a href="https://stockcharts.com/support/techsupport.html">Contact Us</a></li>
+                        <li><a href="https://stockcharts.com/freecharts/catalog/">Symbol Catalog</a></li>
+                        <li><a href="https://stockcharts.com/pricing/">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <h4>Company</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://stockcharts.com/about/">About Us</a></li>
+                        <li><a href="https://stockcharts.com/new/">What's New</a></li>
+                        <li><a href="https://stockcharts.com/careers/">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+            </div>
+            <!-- LOGO -->
+            <div id="logo-col" class="col-xs-12">
+                <a href="https://stockcharts.com/">
+                    <img src="https://d.stockcharts.com/img/scc-logo-light.png" alt="StockCharts.com Logo" class="footer-logo" />
+                </a>
+                <!-- SOCIAL LINKS -->
+                <ul id="social-links" class="list-inline list-unstyled">
+                    <li><a href="https://www.youtube.com/user/stockchartscom" target="_blank" aria-label="StockCharts YouTube Page" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/stockcharts" target="_blank" aria-label="StockCharts Twitter Page" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/stockchartsdotcom" target="_blank" aria-label="StockCharts Facebook Page" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/stockcharts.com-inc." target="_blank" aria-label="StockCharts LinkedIn Page" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            <!-- COPYRIGHT -->
+            <div id="copyright-col" class="col-xs-12">
+                <div class="app-buttons">
+                    <!-- IOS APP BUTTONS -->
+                    <a href="https://stockcharts.com/ios-app/" target="_blank" rel="noopener noreferrer" class="app-btn relative ios-btn">
+                        <img src="https://d.stockcharts.com/img/app-store-btn.png" alt="Download StockCharts On The App Store" />
+                    </a>
+                    <a href="https://apps.apple.com/us/app/stockcharts/id6443663518" target="_blank" rel="noopener noreferrer" class="app-btn external ios-btn">
+                        <img src="https://d.stockcharts.com/img/app-store-btn.png" alt="Download StockCharts On The App Store" />
+                    </a>
+                    <!-- ANDROID APP BUTTONS -->
+                    <a href="https://stockcharts.com/android-app/" target="_blank" rel="noopener noreferrer" class="app-btn relative android-btn">
+                        <img src="https://d.stockcharts.com/img/google-play-btn.png" alt="Download StockCharts On The Google Play Store" />
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.stockcharts.mobile.app.android" target="_blank" rel="noopener noreferrer" class="app-btn external android-btn">
+                        <img src="https://d.stockcharts.com/img/google-play-btn.png" alt="Download StockCharts On The Google Play Store" />
+                    </a>
+                </div>
+                <div class="copyright-content">
+                    <p class="copyright">&copy;&nbsp;StockCharts.com,&nbsp;Inc. All&nbsp;Rights&nbsp;Reserved.</p>
+                    <ul class="list-inline list-unstyled">
+                        <li><a href="https://help.stockcharts.com/learning-more/policies-and-limitations/terms-of-service" target="_blank" rel="noopener noreferrer">Terms&nbsp;of&nbsp;Service</a></li>
+                        <li><a href="https://help.stockcharts.com/learning-more/policies-and-limitations/privacy-statement" target="_blank" rel="noopener noreferrer">Privacy&nbsp;Statement</a></li>
+                        <li><a href="https://stockcharts.com/sitemap.html" target="_blank" rel="noopener noreferrer">Site&nbsp;Map</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- LEGAL -->
+            <div id="legal-col" class="col-lg-10 col-lg-offset-1 col-xs-12">
+                <p class="legal">Market data provided by <b>Xignite, Inc</b>. Commodity and historical index data provided by <b>Pinnacle Data Corporation</b>. Cryptocurrency data provided by <b>CryptoCompare</b>. Unless otherwise indicated, all data is delayed by 15 minutes. The information provided by StockCharts.com, Inc. is not investment advice. Trading and investing in financial markets involves risk. You are responsible for your own investment&nbsp;decisions.</p>
+            </div>
+        </div>
+    </div><!-- end of LOWER -->
+</footer><!-- end of SCC FOOTER -->
+
+            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <script src="https://articles.stockcharts.com/assets/built/source.js?v=86f57067f5"></script>
+
+        
+
+    </body>
+</html>
